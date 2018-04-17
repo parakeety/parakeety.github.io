@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Parakeety&#39;s Blog</title>
+    <link>/tags/cloud/</link>
+    <description>Recent content in Cloud on Parakeety&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 14 Oct 2017 12:07:37 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>「プログラマのためのGoogle Cloud Platform入門」読了</title>
+      <link>/posts/google_cloud_platform/</link>
+      <pubDate>Sat, 14 Oct 2017 12:07:37 +0900</pubDate>
+      
+      <guid>/posts/google_cloud_platform/</guid>
+      <description>現職のサーバーサイドではGCPを使っていることもあり、GCPの知識があると色々仕事が捗るため、プログラマのためのGoogle Cloud Platform入門を読みました。
+GCPの各サービス(Google Compute Engine, Google Container Engine, Google App Engine, Cloud SQL, Cloud Datastore, Cloud storage)の概要が把握できて良かったです。多分GCEはあまり触る事がなく、GKEとGAEがメインになりそうな予感がします。あとは実際のプロジェクトを見ながら勉強していくのが良さそう。</description>
+    </item>
+    
+  </channel>
+</rss>

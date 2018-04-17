@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/posts/ergodox/</loc>
+    <lastmod>2018-03-04T15:24:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/lightning-network-node/</loc>
+    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/raspberry-pi-bitcoin-full-node/</loc>
+    <lastmod>2018-02-09T10:33:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/starting-go/</loc>
+    <lastmod>2018-01-31T11:02:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/golang-mouse/</loc>
+    <lastmod>2017-11-18T08:00:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/bitcoin-full-node-docker-vps/</loc>
+    <lastmod>2017-11-17T19:40:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/zero-linux-server/</loc>
+    <lastmod>2017-11-11T20:00:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/google_cloud_platform/</loc>
+    <lastmod>2017-10-14T12:07:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/souzoh_ios_talk/</loc>
+    <lastmod>2017-10-14T11:50:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/hugo/</loc>
+    <lastmod>2017-09-18T21:46:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/morning-cafe/</loc>
+    <lastmod>2017-09-13T21:56:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/mercari/</loc>
+    <lastmod>2017-01-01T16:02:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/update-countdown/</loc>
+    <lastmod>2016-02-15T13:54:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/googlefontsios/</loc>
+    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/hexo-memo/</loc>
+    <lastmod>2015-08-07T22:01:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/restart/</loc>
+    <lastmod>2015-06-16T14:17:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/nserror-and-nsexception/</loc>
+    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/magicalrecord/</loc>
+    <lastmod>2014-12-17T01:29:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/portfolio/</loc>
+    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/reuse-nsdateformatter/</loc>
+    <lastmod>2014-10-27T11:40:17-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/ag/</loc>
+    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/xctestexpectation/</loc>
+    <lastmod>2014-10-06T23:16:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/forget-programming-syntax/</loc>
+    <lastmod>2014-09-27T16:06:37-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/cocoapods-trunk/</loc>
+    <lastmod>2014-09-18T13:22:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/synthesize/</loc>
+    <lastmod>2014-08-30T17:24:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/prefer-english-operator-merged-to-coffeelint/</loc>
+    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/dev-tools/</loc>
+    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/detect-unicode-number/</loc>
+    <lastmod>2014-06-30T00:26:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/nend-cocoapods-private-pod/</loc>
+    <lastmod>2014-06-22T00:57:48-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/mobile-web-design/</loc>
+    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/coffeelint-prefer-english-operator/</loc>
+    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/ios-learned-lessons/</loc>
+    <lastmod>2014-05-25T02:32:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/protected-property/</loc>
+    <lastmod>2014-05-18T21:39:37-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/private-property-vs-private-ivar/</loc>
+    <lastmod>2014-05-11T03:46:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/property-attributes-in-objective-c/</loc>
+    <lastmod>2014-05-04T02:47:35-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/base64-encoding/</loc>
+    <lastmod>2014-04-01T23:49:45-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/switch/</loc>
+    <lastmod>2014-03-31T22:21:28-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/xctest-refactoring/</loc>
+    <lastmod>2014-03-28T16:19:32-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/equality/</loc>
+    <lastmod>2014-03-28T13:41:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/first-post/</loc>
+    <lastmod>2014-03-27T23:07:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ack/</loc>
+    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ag/</loc>
+    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/app/</loc>
+    <lastmod>2016-02-15T13:54:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/base64/</loc>
+    <lastmod>2014-04-01T23:49:45-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bitcoin/</loc>
+    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cloud/</loc>
+    <lastmod>2017-10-14T12:07:37+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cocoapods/</loc>
+    <lastmod>2014-09-18T13:22:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cocoapods-trunk/</loc>
+    <lastmod>2014-09-18T13:22:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/coffeelint/</loc>
+    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/coffeelint-prefer-english-operator/</loc>
+    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/coffeescript/</loc>
+    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/countdown/</loc>
+    <lastmod>2016-02-15T13:54:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cryptocurrency/</loc>
+    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/custom-rule/</loc>
+    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gcp/</loc>
+    <lastmod>2017-10-14T12:07:37+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ghq/</loc>
+    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/go/</loc>
+    <lastmod>2018-01-31T11:02:32+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/google-fonts/</loc>
+    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/google-fonts-ios/</loc>
+    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/googlefontsios/</loc>
+    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/grep/</loc>
+    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hexo/</loc>
+    <lastmod>2015-08-07T22:01:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ios/</loc>
+    <lastmod>2017-10-14T11:50:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jobchange/</loc>
+    <lastmod>2017-01-01T16:02:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lightning-network/</loc>
+    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/magicalrecord/</loc>
+    <lastmod>2014-12-17T01:29:52-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/memo/</loc>
+    <lastmod>2015-08-07T22:01:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/middleman/</loc>
+    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile/</loc>
+    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/namecheap/</loc>
+    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nend/</loc>
+    <lastmod>2014-06-22T00:57:48-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/npm/</loc>
+    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nsdateformatter/</loc>
+    <lastmod>2014-10-27T11:40:17-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nserror/</loc>
+    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nsexception/</loc>
+    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/objective-c/</loc>
+    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/oss/</loc>
+    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-03-04T15:24:21+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/peco/</loc>
+    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/portfolio/</loc>
+    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2018-03-04T15:24:21+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2014-06-30T00:26:10-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/raspberry-pi/</loc>
+    <lastmod>2018-02-09T10:33:45+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rxswift/</loc>
+    <lastmod>2017-10-14T11:50:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/s3/</loc>
+    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/safari/</loc>
+    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/swift/</loc>
+    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tig/</loc>
+    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/unicode/</loc>
+    <lastmod>2014-06-30T00:26:10-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/unit-test/</loc>
+    <lastmod>2014-03-28T16:19:32-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web/</loc>
+    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/xctest/</loc>
+    <lastmod>2014-10-06T23:16:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/xctestexpectation/</loc>
+    <lastmod>2014-10-06T23:16:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/z/</loc>
+    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

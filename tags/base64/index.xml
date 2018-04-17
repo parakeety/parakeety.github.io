@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Base64 on Parakeety&#39;s Blog</title>
+    <link>/tags/base64/</link>
+    <description>Recent content in Base64 on Parakeety&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 01 Apr 2014 23:49:45 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/base64/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objective-cでNSStringをbase64 encode</title>
+      <link>/posts/base64-encoding/</link>
+      <pubDate>Tue, 01 Apr 2014 23:49:45 -0700</pubDate>
+      
+      <guid>/posts/base64-encoding/</guid>
+      <description>&lt;p&gt;ios7から、&lt;code&gt;NSData&lt;/code&gt;に&lt;code&gt;base64EncodedStringWithOptions:&lt;/code&gt;というメソッドが新たに追加され、base64 encodingが楽になりました。しかも、ios7より以前のバージョン用に、それまでprivateだった&lt;code&gt;base64Encoding&lt;/code&gt;というメソッドがpublicになりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

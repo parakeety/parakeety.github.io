@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Parakeety&#39;s Blog</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Parakeety&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 18 Oct 2014 16:02:07 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ack</title>
+      <link>/tags/ack/</link>
+      <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
+      
+      <guid>/tags/ack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ag</title>
+      <link>/tags/ag/</link>
+      <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
+      
+      <guid>/tags/ag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>App</title>
+      <link>/tags/app/</link>
+      <pubDate>Mon, 15 Feb 2016 13:54:44 +0000</pubDate>
+      
+      <guid>/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Base64</title>
+      <link>/tags/base64/</link>
+      <pubDate>Tue, 01 Apr 2014 23:49:45 -0700</pubDate>
+      
+      <guid>/tags/base64/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitcoin</title>
+      <link>/tags/bitcoin/</link>
+      <pubDate>Mon, 12 Feb 2018 09:50:00 +0900</pubDate>
+      
+      <guid>/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>/tags/cloud/</link>
+      <pubDate>Sat, 14 Oct 2017 12:07:37 +0900</pubDate>
+      
+      <guid>/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cocoapods</title>
+      <link>/tags/cocoapods/</link>
+      <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
+      
+      <guid>/tags/cocoapods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cocoapods Trunk</title>
+      <link>/tags/cocoapods-trunk/</link>
+      <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
+      
+      <guid>/tags/cocoapods-trunk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coffeelint</title>
+      <link>/tags/coffeelint/</link>
+      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
+      
+      <guid>/tags/coffeelint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coffeelint Prefer English Operator</title>
+      <link>/tags/coffeelint-prefer-english-operator/</link>
+      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
+      
+      <guid>/tags/coffeelint-prefer-english-operator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coffeescript</title>
+      <link>/tags/coffeescript/</link>
+      <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
+      
+      <guid>/tags/coffeescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Countdown</title>
+      <link>/tags/countdown/</link>
+      <pubDate>Mon, 15 Feb 2016 13:54:44 +0000</pubDate>
+      
+      <guid>/tags/countdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptocurrency</title>
+      <link>/tags/cryptocurrency/</link>
+      <pubDate>Mon, 12 Feb 2018 09:50:00 +0900</pubDate>
+      
+      <guid>/tags/cryptocurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Rule</title>
+      <link>/tags/custom-rule/</link>
+      <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
+      
+      <guid>/tags/custom-rule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gcp</title>
+      <link>/tags/gcp/</link>
+      <pubDate>Sat, 14 Oct 2017 12:07:37 +0900</pubDate>
+      
+      <guid>/tags/gcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ghq</title>
+      <link>/tags/ghq/</link>
+      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
+      
+      <guid>/tags/ghq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/tags/github/</link>
+      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
+      
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>/tags/go/</link>
+      <pubDate>Wed, 31 Jan 2018 11:02:32 +0900</pubDate>
+      
+      <guid>/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Fonts</title>
+      <link>/tags/google-fonts/</link>
+      <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
+      
+      <guid>/tags/google-fonts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Fonts Ios</title>
+      <link>/tags/google-fonts-ios/</link>
+      <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
+      
+      <guid>/tags/google-fonts-ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Googlefontsios</title>
+      <link>/tags/googlefontsios/</link>
+      <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
+      
+      <guid>/tags/googlefontsios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grep</title>
+      <link>/tags/grep/</link>
+      <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
+      
+      <guid>/tags/grep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hexo</title>
+      <link>/tags/hexo/</link>
+      <pubDate>Fri, 07 Aug 2015 22:01:39 +0000</pubDate>
+      
+      <guid>/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ios</title>
+      <link>/tags/ios/</link>
+      <pubDate>Sat, 14 Oct 2017 11:50:09 +0900</pubDate>
+      
+      <guid>/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jobchange</title>
+      <link>/tags/jobchange/</link>
+      <pubDate>Sun, 01 Jan 2017 16:02:07 +0000</pubDate>
+      
+      <guid>/tags/jobchange/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lightning Network</title>
+      <link>/tags/lightning-network/</link>
+      <pubDate>Mon, 12 Feb 2018 09:50:00 +0900</pubDate>
+      
+      <guid>/tags/lightning-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magicalrecord</title>
+      <link>/tags/magicalrecord/</link>
+      <pubDate>Wed, 17 Dec 2014 01:29:52 -0800</pubDate>
+      
+      <guid>/tags/magicalrecord/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memo</title>
+      <link>/tags/memo/</link>
+      <pubDate>Fri, 07 Aug 2015 22:01:39 +0000</pubDate>
+      
+      <guid>/tags/memo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Middleman</title>
+      <link>/tags/middleman/</link>
+      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
+      
+      <guid>/tags/middleman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>/tags/mobile/</link>
+      <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
+      
+      <guid>/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Namecheap</title>
+      <link>/tags/namecheap/</link>
+      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
+      
+      <guid>/tags/namecheap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nend</title>
+      <link>/tags/nend/</link>
+      <pubDate>Sun, 22 Jun 2014 00:57:48 -0700</pubDate>
+      
+      <guid>/tags/nend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Npm</title>
+      <link>/tags/npm/</link>
+      <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
+      
+      <guid>/tags/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nsdateformatter</title>
+      <link>/tags/nsdateformatter/</link>
+      <pubDate>Mon, 27 Oct 2014 11:40:17 -0700</pubDate>
+      
+      <guid>/tags/nsdateformatter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nserror</title>
+      <link>/tags/nserror/</link>
+      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
+      
+      <guid>/tags/nserror/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nsexception</title>
+      <link>/tags/nsexception/</link>
+      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
+      
+      <guid>/tags/nsexception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Objective C</title>
+      <link>/tags/objective-c/</link>
+      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
+      
+      <guid>/tags/objective-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oss</title>
+      <link>/tags/oss/</link>
+      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
+      
+      <guid>/tags/oss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peco</title>
+      <link>/tags/peco/</link>
+      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
+      
+      <guid>/tags/peco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>/tags/portfolio/</link>
+      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
+      
+      <guid>/tags/portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 30 Jun 2014 00:26:10 -0700</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>/tags/raspberry-pi/</link>
+      <pubDate>Fri, 09 Feb 2018 10:33:45 +0900</pubDate>
+      
+      <guid>/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rxswift</title>
+      <link>/tags/rxswift/</link>
+      <pubDate>Sat, 14 Oct 2017 11:50:09 +0900</pubDate>
+      
+      <guid>/tags/rxswift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S3</title>
+      <link>/tags/s3/</link>
+      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
+      
+      <guid>/tags/s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safari</title>
+      <link>/tags/safari/</link>
+      <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
+      
+      <guid>/tags/safari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>/tags/swift/</link>
+      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
+      
+      <guid>/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tig</title>
+      <link>/tags/tig/</link>
+      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
+      
+      <guid>/tags/tig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unicode</title>
+      <link>/tags/unicode/</link>
+      <pubDate>Mon, 30 Jun 2014 00:26:10 -0700</pubDate>
+      
+      <guid>/tags/unicode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unit Test</title>
+      <link>/tags/unit-test/</link>
+      <pubDate>Fri, 28 Mar 2014 16:19:32 -0700</pubDate>
+      
+      <guid>/tags/unit-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>/tags/web/</link>
+      <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
+      
+      <guid>/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xctest</title>
+      <link>/tags/xctest/</link>
+      <pubDate>Mon, 06 Oct 2014 23:16:00 -0700</pubDate>
+      
+      <guid>/tags/xctest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xctestexpectation</title>
+      <link>/tags/xctestexpectation/</link>
+      <pubDate>Mon, 06 Oct 2014 23:16:00 -0700</pubDate>
+      
+      <guid>/tags/xctestexpectation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Z</title>
+      <link>/tags/z/</link>
+      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
+      
+      <guid>/tags/z/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
