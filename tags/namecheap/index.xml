@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Namecheap on Parakeety&#39;s Blog</title>
-    <link>/tags/namecheap/</link>
+    <link>https://parakeety.github.io/tags/namecheap/</link>
     <description>Recent content in Namecheap on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 22 Nov 2014 01:22:05 -0800</lastBuildDate>
     
-	<atom:link href="/tags/namecheap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://parakeety.github.io/tags/namecheap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>middlemanで作ったportfolioをS3で運用</title>
-      <link>/posts/portfolio/</link>
+      <link>https://parakeety.github.io/posts/portfolio/</link>
       <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
       
-      <guid>/posts/portfolio/</guid>
+      <guid>https://parakeety.github.io/posts/portfolio/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.parakeety.com/&#34;&gt;portfolio&lt;/a&gt;を作成しました。本当は他にも作ったものがあるのですが、デザイン等色々修正する必要があるので、追々追加して行こうと考えています。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

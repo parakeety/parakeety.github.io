@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Parakeety&#39;s Blog</title>
-    <link>/posts/</link>
+    <link>https://parakeety.github.io/posts/</link>
     <description>Recent content in Posts on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 04 Mar 2018 15:24:21 +0900</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://parakeety.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ergodox購入</title>
-      <link>/posts/ergodox/</link>
+      <link>https://parakeety.github.io/posts/ergodox/</link>
       <pubDate>Sun, 04 Mar 2018 15:24:21 +0900</pubDate>
       
-      <guid>/posts/ergodox/</guid>
+      <guid>https://parakeety.github.io/posts/ergodox/</guid>
       <description>&lt;p&gt;今までMacbook Proで作業していましたが、ひどい肩こりに悩まされたため、セパレート式のメカニカルキーボードであるErgodoxを購入しました。Ergodoxを使い始めてから2週間ほど経ちますが、肩こりが劇的に改善されて、少々高かったですが買って良かったなと満足しています。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Lightning Networkのノードを立てた</title>
-      <link>/posts/lightning-network-node/</link>
+      <link>https://parakeety.github.io/posts/lightning-network-node/</link>
       <pubDate>Mon, 12 Feb 2018 09:50:00 +0900</pubDate>
       
-      <guid>/posts/lightning-network-node/</guid>
+      <guid>https://parakeety.github.io/posts/lightning-network-node/</guid>
       <description>&lt;p&gt;Lightning Networkのノードをmainnetに立てました。基本的には&lt;a href=&#34;https://medium.com/@dougvk/run-your-own-mainnet-lightning-node-2d2eab628a8b&#34;&gt;Run your own mainnet Lightning Node&lt;/a&gt;に従ってやりました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>Raspberry PiでBitcoinのフルノードを立てた</title>
-      <link>/posts/raspberry-pi-bitcoin-full-node/</link>
+      <link>https://parakeety.github.io/posts/raspberry-pi-bitcoin-full-node/</link>
       <pubDate>Fri, 09 Feb 2018 10:33:45 +0900</pubDate>
       
-      <guid>/posts/raspberry-pi-bitcoin-full-node/</guid>
+      <guid>https://parakeety.github.io/posts/raspberry-pi-bitcoin-full-node/</guid>
       <description>&lt;p&gt;Raspberry PiにBitcoinのフルノードを立てました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>「スターティングGo言語」読了</title>
-      <link>/posts/starting-go/</link>
+      <link>https://parakeety.github.io/posts/starting-go/</link>
       <pubDate>Wed, 31 Jan 2018 11:02:32 +0900</pubDate>
       
-      <guid>/posts/starting-go/</guid>
+      <guid>https://parakeety.github.io/posts/starting-go/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/4798142417&#34;&gt;スターティングGo言語&lt;/a&gt;を読み終わりました。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/lightningnetwork/lnd&#34;&gt;lnd&lt;/a&gt;にcontributeにしたいなと調べていたら、lndはGoで書かれており、&lt;a href=&#34;https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md&#34;&gt;contribution guide&lt;/a&gt;のRequired Readingに&lt;a href=&#34;https://golang.org/doc/effective_go.html&#34;&gt;effective go&lt;/a&gt;があり、effective go読む前にもっと基礎的な部分を勉強しようと思い、スターティングGo言語を手に取りました。&lt;/p&gt;
@@ -59,10 +59,10 @@
     
     <item>
       <title>「プログラミング経験者がGo言語を本格的に勉強する前に読むための本」読了</title>
-      <link>/posts/golang-mouse/</link>
+      <link>https://parakeety.github.io/posts/golang-mouse/</link>
       <pubDate>Sat, 18 Nov 2017 08:00:03 +0900</pubDate>
       
-      <guid>/posts/golang-mouse/</guid>
+      <guid>https://parakeety.github.io/posts/golang-mouse/</guid>
       <description>&lt;p&gt;仮想通貨のプロジェクトはGolangで書かれているものが多いのと、本業のサーバーサイド側ではGolangを採用しているため、ずっとGolang勉強したいなとは思っていて、今回&lt;a href=&#34;https://www.amazon.co.jp/dp/B06XJ86BFZ/&#34;&gt;「プログラミング経験者がGo言語を本格的に勉強する前に読むための本」&lt;/a&gt;を手に取りました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -70,10 +70,10 @@
     
     <item>
       <title>BitcoinのフルノードをVPS上のDockerで運用開始</title>
-      <link>/posts/bitcoin-full-node-docker-vps/</link>
+      <link>https://parakeety.github.io/posts/bitcoin-full-node-docker-vps/</link>
       <pubDate>Fri, 17 Nov 2017 19:40:20 +0900</pubDate>
       
-      <guid>/posts/bitcoin-full-node-docker-vps/</guid>
+      <guid>https://parakeety.github.io/posts/bitcoin-full-node-docker-vps/</guid>
       <description>&lt;p&gt;勉強も兼ねて、Bitcoin Core(いわゆるfull node)をVPS上のDockerで運用し始めました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -81,10 +81,10 @@
     
     <item>
       <title>「ゼロからはじめるLinuxサーバー構築・運用ガイド」読了</title>
-      <link>/posts/zero-linux-server/</link>
+      <link>https://parakeety.github.io/posts/zero-linux-server/</link>
       <pubDate>Sat, 11 Nov 2017 20:00:21 +0900</pubDate>
       
-      <guid>/posts/zero-linux-server/</guid>
+      <guid>https://parakeety.github.io/posts/zero-linux-server/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/4798146374&#34;&gt;「ゼロからはじめるLinuxサーバー構築・運用ガイド」&lt;/a&gt;を読了しました。&lt;/p&gt;
 
 &lt;p&gt;普段の開発では、PaaSを使うか、あるいはインフラエンジニアに頼り切りになる事が多かったため、インフラを触った事があまりありませんでした。Bitcoindや各種仮想通貨のノードの運用経験を積みたい事もあって、インフラの入門本を探していたのですが、まさに自分が探していた本でした。&lt;/p&gt;
@@ -94,20 +94,20 @@
     
     <item>
       <title>「プログラマのためのGoogle Cloud Platform入門」読了</title>
-      <link>/posts/google_cloud_platform/</link>
+      <link>https://parakeety.github.io/posts/google_cloud_platform/</link>
       <pubDate>Sat, 14 Oct 2017 12:07:37 +0900</pubDate>
       
-      <guid>/posts/google_cloud_platform/</guid>
+      <guid>https://parakeety.github.io/posts/google_cloud_platform/</guid>
       <description>現職のサーバーサイドではGCPを使っていることもあり、GCPの知識があると色々仕事が捗るため、プログラマのためのGoogle Cloud Platform入門を読みました。
 GCPの各サービス(Google Compute Engine, Google Container Engine, Google App Engine, Cloud SQL, Cloud Datastore, Cloud storage)の概要が把握できて良かったです。多分GCEはあまり触る事がなく、GKEとGAEがメインになりそうな予感がします。あとは実際のプロジェクトを見ながら勉強していくのが良さそう。</description>
     </item>
     
     <item>
       <title>Souzoh iOS TalkでRxSwiftを用いた実装について話しました</title>
-      <link>/posts/souzoh_ios_talk/</link>
+      <link>https://parakeety.github.io/posts/souzoh_ios_talk/</link>
       <pubDate>Sat, 14 Oct 2017 11:50:09 +0900</pubDate>
       
-      <guid>/posts/souzoh_ios_talk/</guid>
+      <guid>https://parakeety.github.io/posts/souzoh_ios_talk/</guid>
       <description>&lt;p&gt;2017/10/11に開催されたSouzoh iOS Talkにて、「メルカリアッテのRxSwift実装ガイド」というタイトルの発表をしました。&lt;/p&gt;
 
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cfd56684fa124fbbae249b1080204dd2&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
@@ -117,10 +117,10 @@ GCPの各サービス(Google Compute Engine, Google Container Engine, Google App
     
     <item>
       <title>Hugoに移行</title>
-      <link>/posts/hugo/</link>
+      <link>https://parakeety.github.io/posts/hugo/</link>
       <pubDate>Mon, 18 Sep 2017 21:46:06 +0900</pubDate>
       
-      <guid>/posts/hugo/</guid>
+      <guid>https://parakeety.github.io/posts/hugo/</guid>
       <description>&lt;p&gt;ブログを&lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;から&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;に移行しました。特にGolangを勉強したいからHugoを選んだわけではなく、テーマが好みなのが多かったからです。&lt;/p&gt;
 
 &lt;p&gt;移行で少し面倒だったのが、&lt;/p&gt;
@@ -135,10 +135,10 @@ GCPの各サービス(Google Compute Engine, Google Container Engine, Google App
     
     <item>
       <title>毎朝カフェで勉強</title>
-      <link>/posts/morning-cafe/</link>
+      <link>https://parakeety.github.io/posts/morning-cafe/</link>
       <pubDate>Wed, 13 Sep 2017 21:56:44 +0000</pubDate>
       
-      <guid>/posts/morning-cafe/</guid>
+      <guid>https://parakeety.github.io/posts/morning-cafe/</guid>
       <description>&lt;p&gt;最近出社前に1時間ほど近場のカフェで勉強しています。iOSだと学習曲線がかなり緩やかになっているのですが、学習曲線がまだまだ険しい分野を勉強しており、毎朝カフェで勉強するのが楽しみです。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -146,10 +146,10 @@ GCPの各サービス(Google Compute Engine, Google Container Engine, Google App
     
     <item>
       <title>メルカリ/ソウゾウに入社しました</title>
-      <link>/posts/mercari/</link>
+      <link>https://parakeety.github.io/posts/mercari/</link>
       <pubDate>Sun, 01 Jan 2017 16:02:07 +0000</pubDate>
       
-      <guid>/posts/mercari/</guid>
+      <guid>https://parakeety.github.io/posts/mercari/</guid>
       <description>&lt;p&gt;2年弱いたLINEを退社し、この度メルカリに入社しました。ソウゾウという新規事業をやる部門所属です。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -157,10 +157,10 @@ GCPの各サービス(Google Compute Engine, Google Container Engine, Google App
     
     <item>
       <title>カウントダウンアプリを更新</title>
-      <link>/posts/update-countdown/</link>
+      <link>https://parakeety.github.io/posts/update-countdown/</link>
       <pubDate>Mon, 15 Feb 2016 13:54:44 +0000</pubDate>
       
-      <guid>/posts/update-countdown/</guid>
+      <guid>https://parakeety.github.io/posts/update-countdown/</guid>
       <description>&lt;p&gt;2012年に作ってそのままにしていた&lt;a href=&#34;https://itunes.apple.com/us/app/badge-countdown/id507014333?mt=8&#34;&gt;Badge Countdown&lt;/a&gt;という、バッジで残り日数をカウントダウンできるアプリを更新しました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -168,10 +168,10 @@ GCPの各サービス(Google Compute Engine, Google Container Engine, Google App
     
     <item>
       <title>GoogleFontsiOS</title>
-      <link>/posts/googlefontsios/</link>
+      <link>https://parakeety.github.io/posts/googlefontsios/</link>
       <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
       
-      <guid>/posts/googlefontsios/</guid>
+      <guid>https://parakeety.github.io/posts/googlefontsios/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/parakeety/GoogleFontsiOS&#34;&gt;GoogleFontsiOS&lt;/a&gt;というライブラリを公開しました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -179,10 +179,10 @@ GCPの各サービス(Google Compute Engine, Google Container Engine, Google App
     
     <item>
       <title>hexo memo</title>
-      <link>/posts/hexo-memo/</link>
+      <link>https://parakeety.github.io/posts/hexo-memo/</link>
       <pubDate>Fri, 07 Aug 2015 22:01:39 +0000</pubDate>
       
-      <guid>/posts/hexo-memo/</guid>
+      <guid>https://parakeety.github.io/posts/hexo-memo/</guid>
       <description>新しい記事の作成 hexo new draft &amp;lt;title&amp;gt;  ローカル環境で確認 hexo server --draft --open  port 4000で見れるようになる
 記事の公開 hexo publish &amp;lt;title&amp;gt;  生成 hexo generate  deploy hexo deploy  hexo generate --deploy  で生成とdeployをまとめてできる
 cf https://www.cgmartin.com/2016/01/03/getting-started-with-hexo-blog/</description>
@@ -190,10 +190,10 @@ cf https://www.cgmartin.com/2016/01/03/getting-started-with-hexo-blog/</descript
     
     <item>
       <title>再起動</title>
-      <link>/posts/restart/</link>
+      <link>https://parakeety.github.io/posts/restart/</link>
       <pubDate>Tue, 16 Jun 2015 14:17:31 +0900</pubDate>
       
-      <guid>/posts/restart/</guid>
+      <guid>https://parakeety.github.io/posts/restart/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://blog.webpay.co.jp/post/line-to-acquire-webpay_10feb2015&#34;&gt;会社の買収&lt;/a&gt;などもあり、中々ブログを更新できておりませんでした。&lt;/p&gt;
 
 &lt;p&gt;新生活も落ち着いてきたので、また以前の様に更新していきたいです。
@@ -204,10 +204,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>NSErrorとNSException</title>
-      <link>/posts/nserror-and-nsexception/</link>
+      <link>https://parakeety.github.io/posts/nserror-and-nsexception/</link>
       <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
       
-      <guid>/posts/nserror-and-nsexception/</guid>
+      <guid>https://parakeety.github.io/posts/nserror-and-nsexception/</guid>
       <description>&lt;p&gt;Cocoaには、エラーが起きた時の対処方法として、&lt;code&gt;NSError&lt;/code&gt;と&lt;code&gt;NSException&lt;/code&gt;があります。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -215,10 +215,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>Core Dataで書かれたコードをMagicalRecordで置き換えた</title>
-      <link>/posts/magicalrecord/</link>
+      <link>https://parakeety.github.io/posts/magicalrecord/</link>
       <pubDate>Wed, 17 Dec 2014 01:29:52 -0800</pubDate>
       
-      <guid>/posts/magicalrecord/</guid>
+      <guid>https://parakeety.github.io/posts/magicalrecord/</guid>
       <description>&lt;p&gt;昔作ったアプリを今修正しているのですが、Core Data周りのコードが書くのが辛かったので、&lt;a href=&#34;https://github.com/magicalpanda/MagicalRecord&#34;&gt;MagicalRecord&lt;/a&gt;に移行しました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -226,10 +226,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>middlemanで作ったportfolioをS3で運用</title>
-      <link>/posts/portfolio/</link>
+      <link>https://parakeety.github.io/posts/portfolio/</link>
       <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
       
-      <guid>/posts/portfolio/</guid>
+      <guid>https://parakeety.github.io/posts/portfolio/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.parakeety.com/&#34;&gt;portfolio&lt;/a&gt;を作成しました。本当は他にも作ったものがあるのですが、デザイン等色々修正する必要があるので、追々追加して行こうと考えています。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -237,10 +237,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>NSDateFormatterの再利用</title>
-      <link>/posts/reuse-nsdateformatter/</link>
+      <link>https://parakeety.github.io/posts/reuse-nsdateformatter/</link>
       <pubDate>Mon, 27 Oct 2014 11:40:17 -0700</pubDate>
       
-      <guid>/posts/reuse-nsdateformatter/</guid>
+      <guid>https://parakeety.github.io/posts/reuse-nsdateformatter/</guid>
       <description>&lt;p&gt;&lt;code&gt;NSDateFormatter&lt;/code&gt;を含む&lt;code&gt;NSFormatter&lt;/code&gt;クラスは、生成コストが高いのでなるべく再利用します。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -248,10 +248,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>agがとても便利</title>
-      <link>/posts/ag/</link>
+      <link>https://parakeety.github.io/posts/ag/</link>
       <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
       
-      <guid>/posts/ag/</guid>
+      <guid>https://parakeety.github.io/posts/ag/</guid>
       <description>&lt;p&gt;&lt;code&gt;ack&lt;/code&gt;より、&amp;rsquo;better&amp;rsquo;と主張している&lt;a href=&#34;https://github.com/ggreer/the_silver_searcher&#34;&gt;ag(silver search)&lt;/a&gt;を入れました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -259,10 +259,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>XCTestExpectation</title>
-      <link>/posts/xctestexpectation/</link>
+      <link>https://parakeety.github.io/posts/xctestexpectation/</link>
       <pubDate>Mon, 06 Oct 2014 23:16:00 -0700</pubDate>
       
-      <guid>/posts/xctestexpectation/</guid>
+      <guid>https://parakeety.github.io/posts/xctestexpectation/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;XCTestExpectation&lt;/code&gt;とは、xcode6にて追加された非同期テスト用のAPIです。
@@ -273,10 +273,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>コード書かないとその言語のシンタックスを忘れる</title>
-      <link>/posts/forget-programming-syntax/</link>
+      <link>https://parakeety.github.io/posts/forget-programming-syntax/</link>
       <pubDate>Sat, 27 Sep 2014 16:06:37 -0700</pubDate>
       
-      <guid>/posts/forget-programming-syntax/</guid>
+      <guid>https://parakeety.github.io/posts/forget-programming-syntax/</guid>
       <description>&lt;p&gt;例え何年も書いているプログラミング言語でも、しばらく書いていないと、どうしても忘れしまうのが悩みの種でした。
 (&lt;a href=&#34;http://programmers.stackexchange.com/questions/67750/can-one-forget-programming-if-it-is-not-practiced-for-some-time&#34;&gt;どうやら自分だけではなかったようです。&lt;/a&gt;)&lt;/p&gt;
 
@@ -285,10 +285,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>Cocoapods trunk</title>
-      <link>/posts/cocoapods-trunk/</link>
+      <link>https://parakeety.github.io/posts/cocoapods-trunk/</link>
       <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
       
-      <guid>/posts/cocoapods-trunk/</guid>
+      <guid>https://parakeety.github.io/posts/cocoapods-trunk/</guid>
       <description>&lt;p&gt;以前&lt;a href=&#34;http://parakeety.github.io/blog/2014/04/27/registration-process-to-cocoapods-spec/&#34;&gt;cocoapods specへの登録方法&lt;/a&gt;を紹介しましたが、&lt;a href=&#34;http://blog.cocoapods.org/CocoaPods-Trunk/&#34;&gt;Cocoapods trunk&lt;/a&gt;の登場によって、やり方が変わったので、新しい方法を紹介します。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -296,10 +296,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>synthesizeはいつ書く必要があるか</title>
-      <link>/posts/synthesize/</link>
+      <link>https://parakeety.github.io/posts/synthesize/</link>
       <pubDate>Sat, 30 Aug 2014 17:24:49 -0700</pubDate>
       
-      <guid>/posts/synthesize/</guid>
+      <guid>https://parakeety.github.io/posts/synthesize/</guid>
       <description>&lt;p&gt;compilerの進化に合わせて、objective-cにおける&lt;code&gt;property&lt;/code&gt;の書き方も変化してきましたが、今回は&lt;code&gt;synthesize&lt;/code&gt;について。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -307,10 +307,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>以前作ったcoffeelintのcustom ruleがcoffeelint本体に採用された</title>
-      <link>/posts/prefer-english-operator-merged-to-coffeelint/</link>
+      <link>https://parakeety.github.io/posts/prefer-english-operator-merged-to-coffeelint/</link>
       <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
       
-      <guid>/posts/prefer-english-operator-merged-to-coffeelint/</guid>
+      <guid>https://parakeety.github.io/posts/prefer-english-operator-merged-to-coffeelint/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/parakeety/coffeelint-prefer-english-operator&#34;&gt;coffeelint-prefer-english-operator&lt;/a&gt;というcoffeelintのcustom ruleを&lt;a href=&#34;http://parakeety.github.io/blog/2014/05/31/coffeelint-prefer-english-operator/&#34;&gt;以前作った&lt;/a&gt;のですが、&lt;a href=&#34;https://github.com/clutchski/coffeelint/commit/d028c4e6e4c652d7816e54b1d41849de53481368&#34;&gt;coffeelint本体に採用&lt;/a&gt;されました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -318,10 +318,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>開発ツール</title>
-      <link>/posts/dev-tools/</link>
+      <link>https://parakeety.github.io/posts/dev-tools/</link>
       <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
       
-      <guid>/posts/dev-tools/</guid>
+      <guid>https://parakeety.github.io/posts/dev-tools/</guid>
       <description>&lt;p&gt;仕事で色々inputはしているのだが、それをきれいにまとめる、足りない分を調査する時間が中々取れていない。jsでの依存関係解決の話、moduleの話(commonjs, AMD, UMD)、&lt;a href=&#34;https://github.com/substack/node-browserify&#34;&gt;browserify&lt;/a&gt;とネタは溜まっているので、追々記事にしていきたいと思います。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -329,20 +329,20 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>文字からUnicode numberを識別する</title>
-      <link>/posts/detect-unicode-number/</link>
+      <link>https://parakeety.github.io/posts/detect-unicode-number/</link>
       <pubDate>Mon, 30 Jun 2014 00:26:10 -0700</pubDate>
       
-      <guid>/posts/detect-unicode-number/</guid>
+      <guid>https://parakeety.github.io/posts/detect-unicode-number/</guid>
       <description>日本語だと横棒がハイフンなのか、ダッシュなのか、全角マイナスなのかの識別が目視ではしづらいです。そこで、以下のpythonスクリプトを実行すれば、Unicode numberを返してくれます。
 # detect ―(0x2015) print hex(ord(u&#39;―&#39;))  </description>
     </item>
     
     <item>
       <title>nend SDKをCocoaPodsのPrivate Podsとして管理する</title>
-      <link>/posts/nend-cocoapods-private-pod/</link>
+      <link>https://parakeety.github.io/posts/nend-cocoapods-private-pod/</link>
       <pubDate>Sun, 22 Jun 2014 00:57:48 -0700</pubDate>
       
-      <guid>/posts/nend-cocoapods-private-pod/</guid>
+      <guid>https://parakeety.github.io/posts/nend-cocoapods-private-pod/</guid>
       <description>&lt;p&gt;iphoneアプリに表示する広告として、&lt;a href=&#34;http://nend.net/&#34;&gt;nend&lt;/a&gt;を使っているのですが、いかんせんCocoaPodsに対応していないため、&lt;/p&gt;
 
 &lt;ol&gt;
@@ -358,10 +358,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>モバイル向けのウェブサイトを作る上でのTips</title>
-      <link>/posts/mobile-web-design/</link>
+      <link>https://parakeety.github.io/posts/mobile-web-design/</link>
       <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
       
-      <guid>/posts/mobile-web-design/</guid>
+      <guid>https://parakeety.github.io/posts/mobile-web-design/</guid>
       <description>&lt;h2 id=&#34;meta-tagを追加する&#34;&gt;meta tagを追加する&lt;/h2&gt;
 
 &lt;p&gt;&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;内に以下のタグを追加する&lt;/p&gt;
@@ -380,10 +380,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>coffeelintのcustom ruleを作った</title>
-      <link>/posts/coffeelint-prefer-english-operator/</link>
+      <link>https://parakeety.github.io/posts/coffeelint-prefer-english-operator/</link>
       <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
       
-      <guid>/posts/coffeelint-prefer-english-operator/</guid>
+      <guid>https://parakeety.github.io/posts/coffeelint-prefer-english-operator/</guid>
       <description>&lt;p&gt;tl;dr: &lt;code&gt;==&lt;/code&gt;、&lt;code&gt;!=&lt;/code&gt;、&lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;、&lt;code&gt;||&lt;/code&gt;を使っている時に、warningを出す&lt;code&gt;coffeelint&lt;/code&gt;の&lt;a href=&#34;http://www.coffeelint.org/&#34;&gt;custom rule&lt;/a&gt;を作ったよ&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -391,10 +391,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>アプリやiosライブラリを作って感じたこと</title>
-      <link>/posts/ios-learned-lessons/</link>
+      <link>https://parakeety.github.io/posts/ios-learned-lessons/</link>
       <pubDate>Sun, 25 May 2014 02:32:41 -0700</pubDate>
       
-      <guid>/posts/ios-learned-lessons/</guid>
+      <guid>https://parakeety.github.io/posts/ios-learned-lessons/</guid>
       <description>&lt;h2 id=&#34;viewは最初の設計でうまくいかない事が多い&#34;&gt;Viewは最初の設計でうまくいかない事が多い&lt;/h2&gt;
 
 &lt;p&gt;iOSにおけるViewは様々な制約(subclassしてはいけない、subclassしないといけない)があり、最初にしっかり設計しても、ハウルの動く城の様につぎはぎになってしまう事が多いです。&lt;/p&gt;
@@ -404,10 +404,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>objective-cにおけるprotectedなpropertyの定義方法</title>
-      <link>/posts/protected-property/</link>
+      <link>https://parakeety.github.io/posts/protected-property/</link>
       <pubDate>Sun, 18 May 2014 21:39:37 -0700</pubDate>
       
-      <guid>/posts/protected-property/</guid>
+      <guid>https://parakeety.github.io/posts/protected-property/</guid>
       <description>&lt;p&gt;privateな&lt;code&gt;property&lt;/code&gt;は&lt;code&gt;class extension&lt;/code&gt;を使えば良いですが、&lt;code&gt;protected&lt;/code&gt;、即ち&lt;code&gt;subclass&lt;/code&gt;からもアクセスできる&lt;code&gt;property&lt;/code&gt;が欲しい場合どうするか。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -415,10 +415,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>private property vs privateなインスタンス変数</title>
-      <link>/posts/private-property-vs-private-ivar/</link>
+      <link>https://parakeety.github.io/posts/private-property-vs-private-ivar/</link>
       <pubDate>Sun, 11 May 2014 03:46:29 -0700</pubDate>
       
-      <guid>/posts/private-property-vs-private-ivar/</guid>
+      <guid>https://parakeety.github.io/posts/private-property-vs-private-ivar/</guid>
       <description>&lt;p&gt;外部から隠蔽したい状態を保持するには、privateな&lt;code&gt;property&lt;/code&gt;とprivateなインスタンス変数と2通りのやり方があります。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -426,10 +426,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>propertyの属性</title>
-      <link>/posts/property-attributes-in-objective-c/</link>
+      <link>https://parakeety.github.io/posts/property-attributes-in-objective-c/</link>
       <pubDate>Sun, 04 May 2014 02:47:35 -0700</pubDate>
       
-      <guid>/posts/property-attributes-in-objective-c/</guid>
+      <guid>https://parakeety.github.io/posts/property-attributes-in-objective-c/</guid>
       <description>&lt;p&gt;propertyを宣言する場合に、どの属性を指定すべきかまとめたものです。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -437,10 +437,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>Objective-cでNSStringをbase64 encode</title>
-      <link>/posts/base64-encoding/</link>
+      <link>https://parakeety.github.io/posts/base64-encoding/</link>
       <pubDate>Tue, 01 Apr 2014 23:49:45 -0700</pubDate>
       
-      <guid>/posts/base64-encoding/</guid>
+      <guid>https://parakeety.github.io/posts/base64-encoding/</guid>
       <description>&lt;p&gt;ios7から、&lt;code&gt;NSData&lt;/code&gt;に&lt;code&gt;base64EncodedStringWithOptions:&lt;/code&gt;というメソッドが新たに追加され、base64 encodingが楽になりました。しかも、ios7より以前のバージョン用に、それまでprivateだった&lt;code&gt;base64Encoding&lt;/code&gt;というメソッドがpublicになりました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -448,10 +448,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>switch</title>
-      <link>/posts/switch/</link>
+      <link>https://parakeety.github.io/posts/switch/</link>
       <pubDate>Mon, 31 Mar 2014 22:21:28 -0700</pubDate>
       
-      <guid>/posts/switch/</guid>
+      <guid>https://parakeety.github.io/posts/switch/</guid>
       <description>&lt;h3 id=&#34;objective-cのswitchは整数値しか判定できない&#34;&gt;objective-cのswitchは整数値しか判定できない&lt;/h3&gt;
 
 &lt;p&gt;objective-cにおける&lt;code&gt;switch&lt;/code&gt;の条件式は、integral(整数値. intなど)しか受け付けません。なので、以下の様に&lt;code&gt;NSString&lt;/code&gt;のインスタンスを条件式に渡すと、構文エラーになります。&lt;/p&gt;
@@ -461,10 +461,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>XCTestで書いたUnit Testのリファクタリングを試みた</title>
-      <link>/posts/xctest-refactoring/</link>
+      <link>https://parakeety.github.io/posts/xctest-refactoring/</link>
       <pubDate>Fri, 28 Mar 2014 16:19:32 -0700</pubDate>
       
-      <guid>/posts/xctest-refactoring/</guid>
+      <guid>https://parakeety.github.io/posts/xctest-refactoring/</guid>
       <description>&lt;p&gt;XCTestで書いたUnit testのrefactoringを試みたのですが、個人的にすっきりする方法が見つかりませんでした。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -472,10 +472,10 @@ Octopressに対して細々とした不満があり、違う静的サイトジ�
     
     <item>
       <title>equality</title>
-      <link>/posts/equality/</link>
+      <link>https://parakeety.github.io/posts/equality/</link>
       <pubDate>Fri, 28 Mar 2014 13:41:01 -0700</pubDate>
       
-      <guid>/posts/equality/</guid>
+      <guid>https://parakeety.github.io/posts/equality/</guid>
       <description>#TODO
 equal identical
 NSObject isEqual
@@ -488,10 +488,10 @@ NSString *a = @&amp;quot;a&amp;quot;; NSString *b = @&amp;quot;b&amp;quot;; a ==
     
     <item>
       <title>Octopress始めました。</title>
-      <link>/posts/first-post/</link>
+      <link>https://parakeety.github.io/posts/first-post/</link>
       <pubDate>Thu, 27 Mar 2014 23:07:15 -0700</pubDate>
       
-      <guid>/posts/first-post/</guid>
+      <guid>https://parakeety.github.io/posts/first-post/</guid>
       <description>&lt;p&gt;他のブログサービスなども検討しましたが、&lt;/p&gt;
 
 &lt;ol&gt;

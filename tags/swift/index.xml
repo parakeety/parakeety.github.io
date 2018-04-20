@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swift on Parakeety&#39;s Blog</title>
-    <link>/tags/swift/</link>
+    <link>https://parakeety.github.io/tags/swift/</link>
     <description>Recent content in Swift on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 30 Dec 2014 17:23:39 -0800</lastBuildDate>
     
-	<atom:link href="/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://parakeety.github.io/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NSErrorとNSException</title>
-      <link>/posts/nserror-and-nsexception/</link>
+      <link>https://parakeety.github.io/posts/nserror-and-nsexception/</link>
       <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
       
-      <guid>/posts/nserror-and-nsexception/</guid>
+      <guid>https://parakeety.github.io/posts/nserror-and-nsexception/</guid>
       <description>&lt;p&gt;Cocoaには、エラーが起きた時の対処方法として、&lt;code&gt;NSError&lt;/code&gt;と&lt;code&gt;NSException&lt;/code&gt;があります。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

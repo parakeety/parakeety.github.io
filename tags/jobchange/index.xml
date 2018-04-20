@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jobchange on Parakeety&#39;s Blog</title>
-    <link>/tags/jobchange/</link>
+    <link>https://parakeety.github.io/tags/jobchange/</link>
     <description>Recent content in Jobchange on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 01 Jan 2017 16:02:07 +0000</lastBuildDate>
     
-	<atom:link href="/tags/jobchange/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://parakeety.github.io/tags/jobchange/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>メルカリ/ソウゾウに入社しました</title>
-      <link>/posts/mercari/</link>
+      <link>https://parakeety.github.io/posts/mercari/</link>
       <pubDate>Sun, 01 Jan 2017 16:02:07 +0000</pubDate>
       
-      <guid>/posts/mercari/</guid>
+      <guid>https://parakeety.github.io/posts/mercari/</guid>
       <description>&lt;p&gt;2年弱いたLINEを退社し、この度メルカリに入社しました。ソウゾウという新規事業をやる部門所属です。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

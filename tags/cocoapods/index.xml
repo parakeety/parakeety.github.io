@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cocoapods on Parakeety&#39;s Blog</title>
-    <link>/tags/cocoapods/</link>
+    <link>https://parakeety.github.io/tags/cocoapods/</link>
     <description>Recent content in Cocoapods on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 18 Sep 2014 13:22:51 -0700</lastBuildDate>
     
-	<atom:link href="/tags/cocoapods/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://parakeety.github.io/tags/cocoapods/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cocoapods trunk</title>
-      <link>/posts/cocoapods-trunk/</link>
+      <link>https://parakeety.github.io/posts/cocoapods-trunk/</link>
       <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
       
-      <guid>/posts/cocoapods-trunk/</guid>
+      <guid>https://parakeety.github.io/posts/cocoapods-trunk/</guid>
       <description>&lt;p&gt;以前&lt;a href=&#34;http://parakeety.github.io/blog/2014/04/27/registration-process-to-cocoapods-spec/&#34;&gt;cocoapods specへの登録方法&lt;/a&gt;を紹介しましたが、&lt;a href=&#34;http://blog.cocoapods.org/CocoaPods-Trunk/&#34;&gt;Cocoapods trunk&lt;/a&gt;の登場によって、やり方が変わったので、新しい方法を紹介します。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>nend SDKをCocoaPodsのPrivate Podsとして管理する</title>
-      <link>/posts/nend-cocoapods-private-pod/</link>
+      <link>https://parakeety.github.io/posts/nend-cocoapods-private-pod/</link>
       <pubDate>Sun, 22 Jun 2014 00:57:48 -0700</pubDate>
       
-      <guid>/posts/nend-cocoapods-private-pod/</guid>
+      <guid>https://parakeety.github.io/posts/nend-cocoapods-private-pod/</guid>
       <description>&lt;p&gt;iphoneアプリに表示する広告として、&lt;a href=&#34;http://nend.net/&#34;&gt;nend&lt;/a&gt;を使っているのですが、いかんせんCocoaPodsに対応していないため、&lt;/p&gt;
 
 &lt;ol&gt;
