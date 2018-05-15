@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Ergodox購入</title>
-  <meta property="og:title" content="Ergodox購入" />
-  <meta name="twitter:title" content="Ergodox購入" />
+  <title>xcenvで複数のXCodeを管理</title>
+  <meta property="og:title" content="xcenvで複数のXCodeを管理" />
+  <meta name="twitter:title" content="xcenvで複数のXCodeを管理" />
   
 
   
@@ -17,7 +17,7 @@
 
   <meta name="author" content="parakeety"/>
   <meta property="og:site_name" content="Parakeety&#39;s Blog" />
-  <meta property="og:url" content="https://parakeety.github.io/posts/ergodox/" />
+  <meta property="og:url" content="https://parakeety.github.io/posts/xcenv/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -54,53 +54,37 @@
 
 <article class="p-article">
   <header>
-    <h1>Ergodox購入</h1>
+    <h1>xcenvで複数のXCodeを管理</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2018-03-04T15:24:21&#43;09:00">
-          Mar 4, 2018
+        <time datetime="2017-11-17T19:28:59&#43;09:00">
+          Nov 17, 2017
         </time>
       </div>
       
     </div>
   </header>
   <section id="js-article" class="p-article__body">
-    <p>今までMacbook Proのキーボードで作業していましたが、ひどい肩こりに悩まされたため、セパレート式のメカニカルキーボードであるErgodoxを購入しました。Ergodoxを使い始めてから2週間ほど経ちますが、肩こりが劇的に改善されて、少々高かったですが買って良かったなと満足しています。</p>
+    
 
-<p></p>
+<p>XCodeのversionとSwiftのversionは紐付いており、プロジェクトによってはSwiftの新versionに対応していない、依存ライブラリをまだ更新していないなど、複数のversionのXCodeを手元に置いておきたいことがiOS開発をしていると多々あります。</p>
 
-<h2 id="購入">購入</h2>
+<p>複数のXCodeを手元で共存させたい時は、<code>XCode9.1.app</code>のように<code>XCode.app</code>をrenameして、XCodeのversionを切り替えたい時は、<code>xcode-select</code>で使いたいversionのXCodeへのpathを設定しないといけないです。</p>
+
+<p>違うversionのXCodeの切り替えが手間だなと思っていたのですが、<a href="https://github.com/xcenv/xcenv">xcenv</a>を使うと、各プロジェクト毎に設定したversionのXCodeを使ってくれます。</p>
+
+<h2 id="1-インストール">1. インストール</h2>
 
 <ul>
-<li>Ergodox EZで購入</li>
-<li>1/25に注文して、実際に届いたのが2/16</li>
-<li>黒の無刻印</li>
-<li>Cherry MX Slient Red</li>
+<li><code>brew install xcenv</code></li>
+<li>shell profileに<code>eval &quot;$(xcenv init -)&quot;</code>を追加(fishの場合は、<code>status --is-interactive; and . (xcenv init -|psub)</code>)</li>
 </ul>
 
-<h2 id="キーマップをdocker使ってbuild">キーマップをDocker使ってbuild</h2>
+<h2 id="2-プロジェクトのディレクトリに-xcode-version-を作成">2. プロジェクトのディレクトリに<code>.xcode-version</code>を作成</h2>
 
-<p>デフォルトのキーマップが扱いづらいため、Macbook Proに近いキーマップにとりあえず変更しました。
-かなり頻繁にキーマップを変更するため、Dockerを使ってビルドしています。</p>
+<p>プロジェクト毎に<code>.xcode-version</code>ファイルを作成します。使いたいXCodeのversionを書くだけで大丈夫です。 i.e) <code>9.1</code></p>
 
-<ol>
-<li><code>https://github.com/qmk/qmk_firmware</code> をclone</li>
-<li><code>keyboard/ergodox_ez/keymaps</code>に<code>parakeety</code>というdirectoryを作成</li>
-<li><code>keyboard/ergodox_ez/keymaps/default/keymap.c</code>を2で作ったdirectory配下にcopy</li>
-<li>3でcopyしたkeymap.cを色々変更</li>
-<li><code>docker run -e keymap=parakeety -e keyboard=ergodox_ez --rm -v $('pwd'):/qmk:rw edasque/qmk_firmware</code></li>
-<li>repositoryのroot directoryに<code>ergodox_ez_parakeety.hex</code>が作成されているので、Teensy Loader Applicationを使って流し込む</li>
-</ol>
-
-<h2 id="キーマップ">キーマップ</h2>
-
-<p>macbook proになるべく合わせたのですが、Ergodoxは右側のキーが足りず、いくつかのキー(<code>-</code>, <code>+</code>, <code>[</code>, <code>]</code>など)の配置に困りました。結局Ergodoxだけにある、人差し指でタイプするキーに割り当てました。また、キーが縦に直列に並んでいて<code>C</code><code>V</code><code>N</code><code>M</code>を良くtypoしましたが、1週間も経つと慣れました。
-<code>Cmd + Shift</code>をbrowserのtab移動や、XCode使う際に多用するので、親指で押すキーの一つに<code>Cmd + Shift</code>を割り当てたのですが、かなり使いやすくて気に入っています。DeleteはCtrl + hで代用できそうで、消そうかなと今は考えています。</p>
-
-<h2 id="買ってみて">買ってみて</h2>
-
-<p>最初の1週間はtypoが多く、かなりタイピング速度が落ちましたが、最近は少しずつ慣れてきました。何より肩こりが解消されたので、大変満足しています。</p>
   </section>
   <footer>
     
@@ -108,12 +92,12 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://parakeety.github.io/posts/go-server-side/">Newer</a>
+          <a href="https://parakeety.github.io/posts/bitcoin-full-node-docker-vps/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://parakeety.github.io/posts/lightning-network-node/">Older</a>
+          <a href="https://parakeety.github.io/posts/zero-linux-server/">Older</a>
           
         </div>
       </div>

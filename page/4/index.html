@@ -56,6 +56,53 @@
 
 <article class="c-article p-list-article">
   <header>
+    <h2 class="c-title c-article__title"><a href="https://parakeety.github.io/posts/nend-cocoapods-private-pod/">nend SDKをCocoaPodsのPrivate Podsとして管理する</a></h2>
+    <p class="c-article__meta">
+      Posted on
+      <time datetime="2014-06-22T00:57:48-07:00">
+        Jun 22, 2014
+      </time>
+    </p>
+  </header>
+  <div class="c-article__summary">
+    iphoneアプリに表示する広告として、nendを使っているのですが、いかんせんCocoaPodsに対応していないため、
+ 新しいバージョンが出た時 新しいプロジェクトに追加する時 新しいマシンにした時  に毎回手動でライブラリをダウンロードやら、追加しないといけません。「3回繰り返したら自動化」に倣い、自動化する事にしました。
+
+
+  </div>
+  
+  <a href="https://parakeety.github.io/posts/nend-cocoapods-private-pod/" class="c-article__btn p-list-article__btn">Read more</a></li>
+  
+</article>
+
+
+
+
+<article class="c-article p-list-article">
+  <header>
+    <h2 class="c-title c-article__title"><a href="https://parakeety.github.io/posts/mobile-web-design/">モバイル向けのウェブサイトを作る上でのTips</a></h2>
+    <p class="c-article__meta">
+      Posted on
+      <time datetime="2014-06-15T01:11:03-07:00">
+        Jun 15, 2014
+      </time>
+    </p>
+  </header>
+  <div class="c-article__summary">
+    meta tagを追加する &lt;head&gt;内に以下のタグを追加する
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;   width=device-widthはviewportの幅をデバイスの幅に合わせてくれます initial-scale=1はページのロード時のズームを一倍に設定します。 user-scalable=noで、ズームができなくするようにもできます。が、モバイル端末の向きを変えたりして、ズームが変わった時に、ユーザーが元のズームに戻す方法がなくなるので、個人的には設定しない方が良いかなと感じています。  
+
+  </div>
+  
+  <a href="https://parakeety.github.io/posts/mobile-web-design/" class="c-article__btn p-list-article__btn">Read more</a></li>
+  
+</article>
+
+
+
+
+<article class="c-article p-list-article">
+  <header>
     <h2 class="c-title c-article__title"><a href="https://parakeety.github.io/posts/coffeelint-prefer-english-operator/">coffeelintのcustom ruleを作った</a></h2>
     <p class="c-article__meta">
       Posted on
@@ -236,56 +283,6 @@
 </article>
 
 
-
-
-<article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="https://parakeety.github.io/posts/equality/">equality</a></h2>
-    <p class="c-article__meta">
-      Posted on
-      <time datetime="2014-03-28T13:41:01-07:00">
-        Mar 28, 2014
-      </time>
-    </p>
-  </header>
-  <div class="c-article__summary">
-    #TODO
-equal identical
-NSObject isEqual
-Container class: deep comparison
-overriding isEqual - isEqualClassName - call isEqualClassName in isEqual - override hash
-if isEqual: determines that two objects are equal, they must have the same hash value
-NSString *a = @&quot;a&quot;; NSString *b = @&quot;b&quot;; a == b is true  use isequaltoString never use == for comparing strings. string interning
-参考記事 http://nshipster.com/equality/ https://developer.apple.com/library/ios/documentation/general/conceptual/DevPedia-CocoaCore/ObjectComparison.html
-  </div>
-  
-</article>
-
-
-
-
-<article class="c-article p-list-article">
-  <header>
-    <h2 class="c-title c-article__title"><a href="https://parakeety.github.io/posts/first-post/">Octopress始めました。</a></h2>
-    <p class="c-article__meta">
-      Posted on
-      <time datetime="2014-03-27T23:07:15-07:00">
-        Mar 27, 2014
-      </time>
-    </p>
-  </header>
-  <div class="c-article__summary">
-    他のブログサービスなども検討しましたが、
- 無料 markdownが使える 好きなエディタで文章を書く事ができる  以上の3点が自分にとっては大きく、octopressにしました。
-
-
-  </div>
-  
-  <a href="https://parakeety.github.io/posts/first-post/" class="c-article__btn p-list-article__btn">Read more</a></li>
-  
-</article>
-
-
 <nav class="c-pagination p-pagination">
   <div class="c-pagination__ctrl">
     <div class="c-pagination__newer">
@@ -295,9 +292,11 @@ NSString *a = @&quot;a&quot;; NSString *b = @&quot;b&quot;; a == b is true  use 
     </div>
     <div class="c-pagination__older">
       
+      <a href="/page/5/">Older</a>
+      
     </div>
   </div>
-  <span class="c-pagination__count p-pagination__count">Page 4 of 4</span>
+  <span class="c-pagination__count p-pagination__count">Page 4 of 5</span>
 </nav>
 
 
