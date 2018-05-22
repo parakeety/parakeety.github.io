@@ -6,10 +6,31 @@
     <description>Recent content on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 01 Apr 2018 21:10:13 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 May 2018 19:58:03 +0900</lastBuildDate>
     
 	<atom:link href="https://parakeety.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Goで書かれたOSSにPR送る時のimport問題</title>
+      <link>https://parakeety.github.io/posts/golang-oss-contribution/</link>
+      <pubDate>Tue, 22 May 2018 19:58:03 +0900</pubDate>
+      
+      <guid>https://parakeety.github.io/posts/golang-oss-contribution/</guid>
+      <description>&lt;p&gt;githubでhostされているOSSにPRを送る時の良くある手順としては、&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;forkする&lt;/li&gt;
+&lt;li&gt;forkしたrepositoryをcloneする&lt;/li&gt;
+&lt;li&gt;作業&lt;/li&gt;
+&lt;li&gt;forkにpush&lt;/li&gt;
+&lt;li&gt;PR送る&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;があると思いますが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Go Server Side</title>
