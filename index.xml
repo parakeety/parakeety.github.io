@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Blockchain TokyoでLightning Networkについて発表しました</title>
-      <link>https://parakeety.github.io/posts/blockchain-tokyo-watchtower/</link>
+      <title>Blockchain TokyoでLightning NetworkのWatchtowerについて発表しました</title>
+      <link>https://parakeety.github.io/posts/lightning-network-watchtower/</link>
       <pubDate>Fri, 25 May 2018 20:09:54 +0900</pubDate>
       
-      <guid>https://parakeety.github.io/posts/blockchain-tokyo-watchtower/</guid>
+      <guid>https://parakeety.github.io/posts/lightning-network-watchtower/</guid>
       <description>2018/05/24に開催されたBlockchain tokyo#8のLT枠で、Lightning NetworkのWatchtowerについて発表してきました。
  Watchtower自体はまだ実装されていない機能なのですが、モバイルなどの端末からLightning Networkを使うには必須の機能です。
 今後も機会があればLightning Networkについてちょくちょく発表していきたいです。</description>
@@ -127,10 +127,9 @@
       <pubDate>Fri, 17 Nov 2017 19:28:59 +0900</pubDate>
       
       <guid>https://parakeety.github.io/posts/xcenv/</guid>
-      <description>XCodeのversionとSwiftのversionは紐付いており、プロジェクトによってはSwiftの新versionに対応していない、依存ライブラリをまだ更新していないなど、複数のversionのXCodeを手元に置いておきたいことがiOS開発をしていると多々あります。
-複数のXCodeを手元で共存させたい時は、XCode9.1.appのようにXCode.appをrenameして、XCodeのversionを切り替えたい時は、xcode-selectで使いたいversionのXCodeへのpathを設定しないといけないです。
-違うversionのXCodeの切り替えが手間だなと思っていたのですが、xcenvを使うと、各プロジェクト毎に設定したversionのXCodeを使ってくれます。
-1. インストール  brew install xcenv shell profileにeval &amp;quot;$(xcenv init -)&amp;quot;を追加(fishの場合は、status --is-interactive; and . (xcenv init -|psub))  2. プロジェクトのディレクトリに.xcode-versionを作成 プロジェクト毎に.xcode-versionファイルを作成します。使いたいXCodeのversionを書くだけで大丈夫です。 i.e) 9.1</description>
+      <description>&lt;p&gt;XCodeのversionとSwiftのversionは紐付いており、プロジェクトによってはSwiftの新versionに対応していない、依存ライブラリをまだ更新していないなど、複数のversionのXCodeを手元に置いておきたいことがiOS開発をしていると多々あります。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

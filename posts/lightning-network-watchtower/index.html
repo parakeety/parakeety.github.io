@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>xcenvで複数のXCodeを管理</title>
-  <meta property="og:title" content="xcenvで複数のXCodeを管理" />
-  <meta name="twitter:title" content="xcenvで複数のXCodeを管理" />
+  <title>Blockchain TokyoでLightning NetworkのWatchtowerについて発表しました</title>
+  <meta property="og:title" content="Blockchain TokyoでLightning NetworkのWatchtowerについて発表しました" />
+  <meta name="twitter:title" content="Blockchain TokyoでLightning NetworkのWatchtowerについて発表しました" />
   
 
   
@@ -17,7 +17,7 @@
 
   <meta name="author" content="parakeety"/>
   <meta property="og:site_name" content="Parakeety&#39;s Blog" />
-  <meta property="og:url" content="https://parakeety.github.io/posts/xcenv/" />
+  <meta property="og:url" content="https://parakeety.github.io/posts/lightning-network-watchtower/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -54,36 +54,26 @@
 
 <article class="p-article">
   <header>
-    <h1>xcenvで複数のXCodeを管理</h1>
+    <h1>Blockchain TokyoでLightning NetworkのWatchtowerについて発表しました</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2017-11-17T19:28:59&#43;09:00">
-          Nov 17, 2017
+        <time datetime="2018-05-25T20:09:54&#43;09:00">
+          May 25, 2018
         </time>
       </div>
       
     </div>
   </header>
   <section id="js-article" class="p-article__body">
-    <p>XCodeのversionとSwiftのversionは紐付いており、プロジェクトによってはSwiftの新versionに対応していない、依存ライブラリをまだ更新していないなど、複数のversionのXCodeを手元に置いておきたいことがiOS開発をしていると多々あります。</p>
+    <p>2018/05/24に開催された<a href="https://blockchain-tokyo.connpass.com/event/85149/">Blockchain tokyo#8</a>のLT枠で、Lightning NetworkのWatchtowerについて発表してきました。</p>
 
-<p></p>
+<script async class="speakerdeck-embed" data-id="7d2ed2d5e7014310a98ca5028a4833d4" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-<p>複数のXCodeを手元で共存させたい時は、<code>XCode9.1.app</code>のように<code>XCode.app</code>をrenameして、XCodeのversionを切り替えたい時は、<code>xcode-select</code>で使いたいversionのXCodeへのpathを設定しないといけないです。</p>
+<p>Watchtower自体はまだ実装されていない機能なのですが、モバイルなどの端末からLightning Networkを使うには必須の機能です。</p>
 
-<p>違うversionのXCodeの切り替えが手間だなと思っていたのですが、<a href="https://github.com/xcenv/xcenv">xcenv</a>を使うと、各プロジェクト毎に設定したversionのXCodeを使ってくれます。</p>
+<p>今後も機会があればLightning Networkについてちょくちょく発表していきたいです。</p>
 
-<h2 id="1-インストール">1. インストール</h2>
-
-<ul>
-<li><code>brew install xcenv</code></li>
-<li>shell profileに<code>eval &quot;$(xcenv init -)&quot;</code>を追加(fishの場合は、<code>status --is-interactive; and . (xcenv init -|psub)</code>)</li>
-</ul>
-
-<h2 id="2-プロジェクトのディレクトリに-xcode-version-を作成">2. プロジェクトのディレクトリに<code>.xcode-version</code>を作成</h2>
-
-<p>プロジェクト毎に<code>.xcode-version</code>ファイルを作成します。使いたいXCodeのversionを書くだけで大丈夫です。 i.e) <code>9.1</code></p>
   </section>
   <footer>
     
@@ -91,12 +81,11 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://parakeety.github.io/posts/bitcoin-full-node-docker-vps/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://parakeety.github.io/posts/zero-linux-server/">Older</a>
+          <a href="https://parakeety.github.io/posts/golang-oss-contribution/">Older</a>
           
         </div>
       </div>
