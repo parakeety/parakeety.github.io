@@ -23,21 +23,21 @@
     
     
     
-<meta name="description" content="&lt;p&gt;githubでhostされているOSSにPRを送る時の良くある手順としては、&lt;/p&gt;&lt;ol&gt;&lt;li&gt;forkする&lt;/li&gt;&lt;li&gt;forkしたrepositoryをcloneする&lt;/li&gt;&lt;li&gt;作業&lt;/li&gt;&lt;li&gt;forkにpush&lt;/li&gt;&lt;li&gt;PR送る&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;があると思いますが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta name="description" content="&lt;p&gt;githubでhostされているOSSにPRを送る時に&lt;/p&gt;&lt;ol&gt;&lt;li&gt;forkする&lt;/li&gt;&lt;li&gt;forkしたrepositoryを手元にcloneする&lt;/li&gt;&lt;li&gt;作業&lt;/li&gt;&lt;li&gt;forkにpush&lt;/li&gt;&lt;li&gt;PR送る&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
 
 <meta property="og:title" content="Goで書かれたOSSにPR送る時のimport問題 - Parakeety&#39;s Blog">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://parakeety.github.io/posts/golang-oss-contribution/">
 <meta property="og:image" content="https://parakeety.github.io/images/default.png">
 <meta property="og:site_name" content="Parakeety&#39;s Blog">
-<meta property="og:description" content="&lt;p&gt;githubでhostされているOSSにPRを送る時の良くある手順としては、&lt;/p&gt;&lt;ol&gt;&lt;li&gt;forkする&lt;/li&gt;&lt;li&gt;forkしたrepositoryをcloneする&lt;/li&gt;&lt;li&gt;作業&lt;/li&gt;&lt;li&gt;forkにpush&lt;/li&gt;&lt;li&gt;PR送る&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;があると思いますが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta property="og:description" content="&lt;p&gt;githubでhostされているOSSにPRを送る時に&lt;/p&gt;&lt;ol&gt;&lt;li&gt;forkする&lt;/li&gt;&lt;li&gt;forkしたrepositoryを手元にcloneする&lt;/li&gt;&lt;li&gt;作業&lt;/li&gt;&lt;li&gt;forkにpush&lt;/li&gt;&lt;li&gt;PR送る&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Parakeety&#39;s Blog">
 <meta name="twitter:url" content="https://parakeety.github.io/posts/golang-oss-contribution/">
 <meta name="twitter:title" content="Goで書かれたOSSにPR送る時のimport問題 - Parakeety&#39;s Blog">
-<meta name="twitter:description" content="&lt;p&gt;githubでhostされているOSSにPRを送る時の良くある手順としては、&lt;/p&gt;&lt;ol&gt;&lt;li&gt;forkする&lt;/li&gt;&lt;li&gt;forkしたrepositoryをcloneする&lt;/li&gt;&lt;li&gt;作業&lt;/li&gt;&lt;li&gt;forkにpush&lt;/li&gt;&lt;li&gt;PR送る&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;があると思いますが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta name="twitter:description" content="&lt;p&gt;githubでhostされているOSSにPRを送る時に&lt;/p&gt;&lt;ol&gt;&lt;li&gt;forkする&lt;/li&gt;&lt;li&gt;forkしたrepositoryを手元にcloneする&lt;/li&gt;&lt;li&gt;作業&lt;/li&gt;&lt;li&gt;forkにpush&lt;/li&gt;&lt;li&gt;PR送る&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
 <meta name="twitter:image" content="https://parakeety.github.io/images/default.png">
 
 
@@ -72,17 +72,17 @@
         "height": 60
       }
     },
-    "description": "<p>githubでhostされているOSSにPRを送る時の良くある手順としては、</p>
+    "description": "<p>githubでhostされているOSSにPRを送る時に</p>
 
 <ol>
 <li>forkする</li>
-<li>forkしたrepositoryをcloneする</li>
+<li>forkしたrepositoryを手元にcloneする</li>
 <li>作業</li>
 <li>forkにpush</li>
 <li>PR送る</li>
 </ol>
 
-<p>があると思いますが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。</p>
+<p>という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。</p>
 
 <p></p>"
   }
@@ -136,17 +136,17 @@
 </aside>
 
 
-  <div class="article-body"><p>githubでhostされているOSSにPRを送る時の良くある手順としては、</p>
+  <div class="article-body"><p>githubでhostされているOSSにPRを送る時に</p>
 
 <ol>
 <li>forkする</li>
-<li>forkしたrepositoryをcloneする</li>
+<li>forkしたrepositoryを手元にcloneする</li>
 <li>作業</li>
 <li>forkにpush</li>
 <li>PR送る</li>
 </ol>
 
-<p>があると思いますが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。</p>
+<p>という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。</p>
 
 <p></p>
 
@@ -223,6 +223,21 @@ import &quot;github.com/original/subpackage&quot; // 本当は&quot;github.com/f
     </header>
   </div>
 </article>
+</li><li><article class="li sm article-d5bc12dba64f9e8790994fc31c7be000">
+  <div class="header-wrapper">
+    <a href="https://parakeety.github.io/posts/first-month-go-server-side/" class="thumbnail" title="Goでサーバーサイドを書き始めて1ヶ月経った"></a>
+    <header class="article-header">
+      <div class="clearfix">
+        <h2 class="title"><a href="https://parakeety.github.io/posts/first-month-go-server-side/">Goでサーバーサイドを書き始めて1ヶ月経った</a></h2>
+        <ul class="p-facts">
+          <li><time datetime="2018-05-06T20:43:43JST">May 6, 2018</time></li>
+          <li><a href="https://parakeety.github.io/posts/">posts</a></li>
+          
+        </ul>
+      </div>
+    </header>
+  </div>
+</article>
 </li><li><article class="li sm article-e10329459e957f14ebf4276f916ea5a2">
   <div class="header-wrapper">
     <a href="https://parakeety.github.io/posts/go-server-side/" class="thumbnail" title="Go Server Side"></a>
@@ -231,21 +246,6 @@ import &quot;github.com/original/subpackage&quot; // 本当は&quot;github.com/f
         <h2 class="title"><a href="https://parakeety.github.io/posts/go-server-side/">Go Server Side</a></h2>
         <ul class="p-facts">
           <li><time datetime="2018-04-01T21:10:13JST">Apr 1, 2018</time></li>
-          <li><a href="https://parakeety.github.io/posts/">posts</a></li>
-          
-        </ul>
-      </div>
-    </header>
-  </div>
-</article>
-</li><li><article class="li sm article-aa37b3fa177472af709790836dc6d33a">
-  <div class="header-wrapper">
-    <a href="https://parakeety.github.io/posts/ergodox/" class="thumbnail" title="Ergodox購入"></a>
-    <header class="article-header">
-      <div class="clearfix">
-        <h2 class="title"><a href="https://parakeety.github.io/posts/ergodox/">Ergodox購入</a></h2>
-        <ul class="p-facts">
-          <li><time datetime="2018-03-04T15:24:21JST">Mar 4, 2018</time></li>
           <li><a href="https://parakeety.github.io/posts/">posts</a></li>
           
         </ul>

@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/posts/first-month-go-server-side/</loc>
+    <lastmod>2018-05-06T20:43:43+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/go-server-side/</loc>
     <lastmod>2018-04-01T21:10:13+09:00</lastmod>
   </url>
@@ -90,11 +95,6 @@
   <url>
     <loc>https://parakeety.github.io/posts/googlefontsios/</loc>
     <lastmod>2015-08-07T22:06:58+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/posts/hexo-memo/</loc>
-    <lastmod>2015-08-07T22:01:39+00:00</lastmod>
   </url>
   
   <url>
@@ -360,12 +360,6 @@
   </url>
   
   <url>
-    <loc>https://parakeety.github.io/tags/hexo/</loc>
-    <lastmod>2015-08-07T22:01:39+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://parakeety.github.io/tags/ios/</loc>
     <lastmod>2017-10-14T11:50:09+09:00</lastmod>
     <priority>0</priority>
@@ -386,12 +380,6 @@
   <url>
     <loc>https://parakeety.github.io/tags/magicalrecord/</loc>
     <lastmod>2014-12-17T01:29:52-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/memo/</loc>
-    <lastmod>2015-08-07T22:01:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   

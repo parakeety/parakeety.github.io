@@ -11,33 +11,33 @@
 <link rel="apple-touch-icon" href="https://parakeety.github.io/images/logo.png">
 
 
-<link rel="canonical" href="https://parakeety.github.io/posts/xctestexpectation/">
+<link rel="canonical" href="https://parakeety.github.io/posts/first-month-go-server-side/">
 
 
     
     <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" rel="stylesheet">
     
-    <title>XCTestExpectation - Parakeety&#39;s Blog</title>
+    <title>Goでサーバーサイドを書き始めて1ヶ月経った - Parakeety&#39;s Blog</title>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     
     
     
-<meta name="description" content="&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&lt;p&gt;&lt;code&gt;XCTestExpectation&lt;/code&gt;とは、xcode6にて追加された非同期テスト用のAPIです。これまで、非同期な処理のテストをするのにGCDのAPIを使ったり、&lt;a href=&#34;https://github.com/travisjeffery/TRVSMonitor&#34;&gt;TRVSMonitor&lt;/a&gt;等のライブラリを使う必要がありましたが、今後は&lt;code&gt;XCTestExpectation&lt;/code&gt;を使うことができます。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta name="description" content="以前書いたように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。 元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた) web applicationを開発するとのことで、net/http周りを触っていたが、net/httpは今のところほぼ使っていない&amp;hellip; microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 gRPC and REST with gRPC in practice がとても良かった わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい 独り立ちまでは中々遠い  ">
 
-<meta property="og:title" content="XCTestExpectation - Parakeety&#39;s Blog">
+<meta property="og:title" content="Goでサーバーサイドを書き始めて1ヶ月経った - Parakeety&#39;s Blog">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://parakeety.github.io/posts/xctestexpectation/">
+<meta property="og:url" content="https://parakeety.github.io/posts/first-month-go-server-side/">
 <meta property="og:image" content="https://parakeety.github.io/images/default.png">
 <meta property="og:site_name" content="Parakeety&#39;s Blog">
-<meta property="og:description" content="&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&lt;p&gt;&lt;code&gt;XCTestExpectation&lt;/code&gt;とは、xcode6にて追加された非同期テスト用のAPIです。これまで、非同期な処理のテストをするのにGCDのAPIを使ったり、&lt;a href=&#34;https://github.com/travisjeffery/TRVSMonitor&#34;&gt;TRVSMonitor&lt;/a&gt;等のライブラリを使う必要がありましたが、今後は&lt;code&gt;XCTestExpectation&lt;/code&gt;を使うことができます。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta property="og:description" content="以前書いたように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。 元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた) web applicationを開発するとのことで、net/http周りを触っていたが、net/httpは今のところほぼ使っていない&amp;hellip; microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 gRPC and REST with gRPC in practice がとても良かった わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい 独り立ちまでは中々遠い  ">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Parakeety&#39;s Blog">
-<meta name="twitter:url" content="https://parakeety.github.io/posts/xctestexpectation/">
-<meta name="twitter:title" content="XCTestExpectation - Parakeety&#39;s Blog">
-<meta name="twitter:description" content="&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&lt;p&gt;&lt;code&gt;XCTestExpectation&lt;/code&gt;とは、xcode6にて追加された非同期テスト用のAPIです。これまで、非同期な処理のテストをするのにGCDのAPIを使ったり、&lt;a href=&#34;https://github.com/travisjeffery/TRVSMonitor&#34;&gt;TRVSMonitor&lt;/a&gt;等のライブラリを使う必要がありましたが、今後は&lt;code&gt;XCTestExpectation&lt;/code&gt;を使うことができます。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta name="twitter:url" content="https://parakeety.github.io/posts/first-month-go-server-side/">
+<meta name="twitter:title" content="Goでサーバーサイドを書き始めて1ヶ月経った - Parakeety&#39;s Blog">
+<meta name="twitter:description" content="以前書いたように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。 元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた) web applicationを開発するとのことで、net/http周りを触っていたが、net/httpは今のところほぼ使っていない&amp;hellip; microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 gRPC and REST with gRPC in practice がとても良かった わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい 独り立ちまでは中々遠い  ">
 <meta name="twitter:image" content="https://parakeety.github.io/images/default.png">
 
 
@@ -49,15 +49,15 @@
       "@type": "WebPage",
       "@id":"https://parakeety.github.io/"
     },
-    "headline": "XCTestExpectation - Parakeety&#39;s Blog",
+    "headline": "Goでサーバーサイドを書き始めて1ヶ月経った - Parakeety&#39;s Blog",
     "image": {
       "@type": "ImageObject",
       "url": "https://parakeety.github.io/images/default.png",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2014-10-06T23:16:00JST",
-    "dateModified": "2014-10-06T23:16:00JST",
+    "datePublished": "2018-05-06T20:43:43JST",
+    "dateModified": "2018-05-06T20:43:43JST",
     "author": {
       "@type": "Person",
       "name": "Parakeety&#39;s Blog"
@@ -72,12 +72,8 @@
         "height": 60
       }
     },
-    "description": "<h2 id="概要">概要</h2>
-
-<p><code>XCTestExpectation</code>とは、xcode6にて追加された非同期テスト用のAPIです。
-これまで、非同期な処理のテストをするのにGCDのAPIを使ったり、<a href="https://github.com/travisjeffery/TRVSMonitor">TRVSMonitor</a>等のライブラリを使う必要がありましたが、今後は<code>XCTestExpectation</code>を使うことができます。</p>
-
-<p></p>"
+    "description": "以前書いたように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。
+ 元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた) web applicationを開発するとのことで、net/http周りを触っていたが、net/httpは今のところほぼ使っていない&hellip; microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 gRPC and REST with gRPC in practice がとても良かった わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい 独り立ちまでは中々遠い  "
   }
 </script>
 
@@ -105,14 +101,14 @@
     <main>
       
 <div class="l-container">
-  <article class="single article-02fed9e13e24d0dba192cd214430f46e">
+  <article class="single article-d5bc12dba64f9e8790994fc31c7be000">
   <div class="header-wrapper">
-    <a href="https://parakeety.github.io/posts/xctestexpectation/" class="thumbnail" title="XCTestExpectation"></a>
+    <a href="https://parakeety.github.io/posts/first-month-go-server-side/" class="thumbnail" title="Goでサーバーサイドを書き始めて1ヶ月経った"></a>
     <header class="article-header">
       <div class="clearfix">
-        <h1 class="title">XCTestExpectation</h1>
+        <h1 class="title">Goでサーバーサイドを書き始めて1ヶ月経った</h1>
         <ul class="p-facts">
-          <li><time datetime="2014-10-06T23:16:00JST">Oct 6, 2014</time></li>
+          <li><time datetime="2018-05-06T20:43:43JST">May 6, 2018</time></li>
           <li><a href="https://parakeety.github.io/posts/">posts</a></li>
           
         </ul>
@@ -121,52 +117,31 @@
   </div>
 
   <aside class="p-share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f&title=XCTestExpectation" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f&t=XCTestExpectation" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f&text=XCTestExpectation&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
-  <a href="http://line.me/R/msg/text/?XCTestExpectation https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f&title=Go%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b5%e3%82%a4%e3%83%89%e3%82%92%e6%9b%b8%e3%81%8d%e5%a7%8b%e3%82%81%e3%81%a61%e3%83%b6%e6%9c%88%e7%b5%8c%e3%81%a3%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f&t=Go%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b5%e3%82%a4%e3%83%89%e3%82%92%e6%9b%b8%e3%81%8d%e5%a7%8b%e3%82%81%e3%81%a61%e3%83%b6%e6%9c%88%e7%b5%8c%e3%81%a3%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f&text=Go%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b5%e3%82%a4%e3%83%89%e3%82%92%e6%9b%b8%e3%81%8d%e5%a7%8b%e3%82%81%e3%81%a61%e3%83%b6%e6%9c%88%e7%b5%8c%e3%81%a3%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
+  <a href="http://line.me/R/msg/text/?Go%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b5%e3%82%a4%e3%83%89%e3%82%92%e6%9b%b8%e3%81%8d%e5%a7%8b%e3%82%81%e3%81%a61%e3%83%b6%e6%9c%88%e7%b5%8c%e3%81%a3%e3%81%9f https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
 </aside>
 
 
-  <div class="article-body"><h2 id="概要">概要</h2>
+  <div class="article-body"><p><a href="/posts/go-server-side">以前書いた</a>ように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。</p>
 
-<p><code>XCTestExpectation</code>とは、xcode6にて追加された非同期テスト用のAPIです。
-これまで、非同期な処理のテストをするのにGCDのAPIを使ったり、<a href="https://github.com/travisjeffery/TRVSMonitor">TRVSMonitor</a>等のライブラリを使う必要がありましたが、今後は<code>XCTestExpectation</code>を使うことができます。</p>
-
-<p></p>
-
-<h2 id="使い方">使い方</h2>
-
-<pre><code class="language-objective-c">// 1. XCTestExpectationのインスタンスを生成。複数のXCTestExpectationを生成しても良い
-XCTestExpectation *expectation = [self expectationWithDescription:@&quot;callback called&quot;];
-
-// 2. 非同期な呼び出し内で`[expectation fulfill]`を呼ぶ
-[SomeClass callback:^(NSString *string, NSError *error) {
-    XCTAssert(...);
-
-    // [expectation fulfill]が呼ばれると、3.のwaitForExpectationのcallbackが呼ばれる
-    [expectation fulfill];
-}];
-
-// 3. `[expectation fulfill]`が呼ばれるか、タイムアウトになるまで`NSRunLoop`
-// を回し続けた状態で待機する
-[self waitForExpectationsWithTimeout:1 handler:nil];
-
-</code></pre>
-
-<h2 id="cf">cf</h2>
-
-<p><a href="http://qiita.com/nomadmonad/items/d2c283f9b9ad33a2b32a">http://qiita.com/nomadmonad/items/d2c283f9b9ad33a2b32a</a>
-<a href="http://sssslide.com/speakerdeck.com/nomadmonad/new-features-of-xctest-on-xcode-6">http://sssslide.com/speakerdeck.com/nomadmonad/new-features-of-xctest-on-xcode-6</a>
-<a href="http://nshipster.com/xctestcase/">http://nshipster.com/xctestcase/</a></p></div>
+<ul>
+<li>元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた)</li>
+<li>web applicationを開発するとのことで、<code>net/http</code>周りを触っていたが、<code>net/http</code>は今のところほぼ使っていない&hellip;</li>
+<li>microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 <a href="https://speakerdeck.com/kazegusuri/grpc-and-rest-with-grpc-in-practice">gRPC and REST with gRPC in practice</a> がとても良かった</li>
+<li>わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい</li>
+<li>独り立ちまでは中々遠い</li>
+</ul>
+</div>
 
   <aside class="p-share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f&title=XCTestExpectation" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f&t=XCTestExpectation" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f&text=XCTestExpectation&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
-  <a href="http://line.me/R/msg/text/?XCTestExpectation https%3a%2f%2fparakeety.github.io%2fposts%2fxctestexpectation%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f&title=Go%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b5%e3%82%a4%e3%83%89%e3%82%92%e6%9b%b8%e3%81%8d%e5%a7%8b%e3%82%81%e3%81%a61%e3%83%b6%e6%9c%88%e7%b5%8c%e3%81%a3%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f&t=Go%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b5%e3%82%a4%e3%83%89%e3%82%92%e6%9b%b8%e3%81%8d%e5%a7%8b%e3%82%81%e3%81%a61%e3%83%b6%e6%9c%88%e7%b5%8c%e3%81%a3%e3%81%9f" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f&text=Go%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b5%e3%82%a4%e3%83%89%e3%82%92%e6%9b%b8%e3%81%8d%e5%a7%8b%e3%82%81%e3%81%a61%e3%83%b6%e6%9c%88%e7%b5%8c%e3%81%a3%e3%81%9f&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
+  <a href="http://line.me/R/msg/text/?Go%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b5%e3%82%a4%e3%83%89%e3%82%92%e6%9b%b8%e3%81%8d%e5%a7%8b%e3%82%81%e3%81%a61%e3%83%b6%e6%9c%88%e7%b5%8c%e3%81%a3%e3%81%9f https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
 </aside>
 
 
@@ -177,28 +152,13 @@ XCTestExpectation *expectation = [self expectationWithDescription:@&quot;callbac
         
         <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://parakeety.github.io/posts/" itemprop="url"><span itemprop="title">posts</span></a></li>
         
-        <li>XCTestExpectation</li>
+        <li>Goでサーバーサイドを書き始めて1ヶ月経った</li>
       </ol>
 
       
       
       
       
-      
-      <ul class="p-facts">
-        <li>
-          <header><a href="https://parakeety.github.io/tags/">tags</a></header>
-          <ul>
-            
-            <li><a href="https://parakeety.github.io/tags/xctestexpectation/">XCTestExpectation</a></li>
-            
-            <li><a href="https://parakeety.github.io/tags/xctest/">XCTest</a></li>
-            
-            <li><a href="https://parakeety.github.io/tags/ios/">iOS</a></li>
-            
-          </ul>
-        </li>
-      </ul>
       
       
     </section>
@@ -242,14 +202,14 @@ XCTestExpectation *expectation = [self expectationWithDescription:@&quot;callbac
     </header>
   </div>
 </article>
-</li><li><article class="li sm article-d5bc12dba64f9e8790994fc31c7be000">
+</li><li><article class="li sm article-e10329459e957f14ebf4276f916ea5a2">
   <div class="header-wrapper">
-    <a href="https://parakeety.github.io/posts/first-month-go-server-side/" class="thumbnail" title="Goでサーバーサイドを書き始めて1ヶ月経った"></a>
+    <a href="https://parakeety.github.io/posts/go-server-side/" class="thumbnail" title="Go Server Side"></a>
     <header class="article-header">
       <div class="clearfix">
-        <h2 class="title"><a href="https://parakeety.github.io/posts/first-month-go-server-side/">Goでサーバーサイドを書き始めて1ヶ月経った</a></h2>
+        <h2 class="title"><a href="https://parakeety.github.io/posts/go-server-side/">Go Server Side</a></h2>
         <ul class="p-facts">
-          <li><time datetime="2018-05-06T20:43:43JST">May 6, 2018</time></li>
+          <li><time datetime="2018-04-01T21:10:13JST">Apr 1, 2018</time></li>
           <li><a href="https://parakeety.github.io/posts/">posts</a></li>
           
         </ul>
