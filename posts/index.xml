@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 25 May 2018 20:09:54 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 31 Dec 2018 18:51:07 +0900</lastBuildDate>
     
 	<atom:link href="https://parakeety.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018年振り返り</title>
+      <link>https://parakeety.github.io/posts/2018-review/</link>
+      <pubDate>Mon, 31 Dec 2018 18:51:07 +0900</pubDate>
+      
+      <guid>https://parakeety.github.io/posts/2018-review/</guid>
+      <description>2018年は4月に仕事でサーバーサイドエンジニアをやることになったのが、一番大きな変化だった。iOSと同じレベルにはまだほど遠いが、golangを用いたmicroserviceの開発にも少しずつ慣れてきた。まだまだkubernetes、cloud spannerやmicroserviceの勉強が足りないので、引き続き頑張りたい。
+新しい事を始めた事に加え、責任が重いmicroserviceを触ることになったこともあり、ストレスからか今年は体調を崩す事が多かった。どういう時に体調崩しやすいか少しずつ傾向がわかってきたため、来年は予防に気をつけて過ごすようにしたい。
+来年は、更に新しい事を始めるというよりは、今年始めた事を深める年にしたい。暗号通貨のOSSへのcontributeも少しずつ再開していきたい。(本業が忙しく、まったく最新の状況を追えていない&amp;hellip;)
+今年買って良かったもの  ergodox ez: 肩こりに圧倒的に効果があり、自宅用にも買ってしまった boseのnoise canceling headphone: 周りがうるさくても、集中できて良い 電動アシスト自転車: 移動へのハードルが圧倒的に下がって、行動範囲が広くなった  皆様良いお年を</description>
+    </item>
     
     <item>
       <title>Blockchain TokyoでLightning NetworkのWatchtowerについて発表しました</title>

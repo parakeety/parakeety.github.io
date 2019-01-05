@@ -11,33 +11,33 @@
 <link rel="apple-touch-icon" href="https://parakeety.github.io/images/logo.png">
 
 
-<link rel="canonical" href="https://parakeety.github.io/posts/golang-oss-contribution/">
+<link rel="canonical" href="https://parakeety.github.io/posts/2018-review/">
 
 
     
     <link href="https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" rel="stylesheet">
     
-    <title>Goで書かれたOSSにPR送る時のimport問題 - Parakeety&#39;s Blog</title>
+    <title>2018年振り返り - Parakeety&#39;s Blog</title>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     
     
     
-<meta name="description" content="&lt;p&gt;githubでhostされているOSSにPRを送る時に&lt;/p&gt;&lt;ol&gt;&lt;li&gt;forkする&lt;/li&gt;&lt;li&gt;forkしたrepositoryを手元にcloneする&lt;/li&gt;&lt;li&gt;作業&lt;/li&gt;&lt;li&gt;forkにpush&lt;/li&gt;&lt;li&gt;PR送る&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta name="description" content="2018年は4月に仕事でサーバーサイドエンジニアをやることになったのが、一番大きな変化だった。iOSと同じレベルにはまだほど遠いが、golangを用いたmicroserviceの開発にも少しずつ慣れてきた。まだまだkubernetes、cloud spannerやmicroserviceの勉強が足りないので、引き続き頑張りたい。新しい事を始めた事に加え、責任が重いmicroserviceを触ることになったこともあり、ストレスからか今年は体調を崩す事が多かった。どういう時に体調崩しやすいか少しずつ傾向がわかってきたため、来年は予防に気をつけて過ごすようにしたい。来年は、更に新しい事を始めるというよりは、今年始めた事を深める年にしたい。暗号通貨のOSSへのcontributeも少しずつ再開していきたい。(本業が忙しく、まったく最新の状況を追えていない&amp;hellip;)今年買って良かったもの  ergodox ez: 肩こりに圧倒的に効果があり、自宅用にも買ってしまった boseのnoise canceling headphone: 周りがうるさくても、集中できて良い 電動アシスト自転車: 移動へのハードルが圧倒的に下がって、行動範囲が広くなった  皆様良いお年を">
 
-<meta property="og:title" content="Goで書かれたOSSにPR送る時のimport問題 - Parakeety&#39;s Blog">
+<meta property="og:title" content="2018年振り返り - Parakeety&#39;s Blog">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://parakeety.github.io/posts/golang-oss-contribution/">
+<meta property="og:url" content="https://parakeety.github.io/posts/2018-review/">
 <meta property="og:image" content="https://parakeety.github.io/images/default.png">
 <meta property="og:site_name" content="Parakeety&#39;s Blog">
-<meta property="og:description" content="&lt;p&gt;githubでhostされているOSSにPRを送る時に&lt;/p&gt;&lt;ol&gt;&lt;li&gt;forkする&lt;/li&gt;&lt;li&gt;forkしたrepositoryを手元にcloneする&lt;/li&gt;&lt;li&gt;作業&lt;/li&gt;&lt;li&gt;forkにpush&lt;/li&gt;&lt;li&gt;PR送る&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta property="og:description" content="2018年は4月に仕事でサーバーサイドエンジニアをやることになったのが、一番大きな変化だった。iOSと同じレベルにはまだほど遠いが、golangを用いたmicroserviceの開発にも少しずつ慣れてきた。まだまだkubernetes、cloud spannerやmicroserviceの勉強が足りないので、引き続き頑張りたい。新しい事を始めた事に加え、責任が重いmicroserviceを触ることになったこともあり、ストレスからか今年は体調を崩す事が多かった。どういう時に体調崩しやすいか少しずつ傾向がわかってきたため、来年は予防に気をつけて過ごすようにしたい。来年は、更に新しい事を始めるというよりは、今年始めた事を深める年にしたい。暗号通貨のOSSへのcontributeも少しずつ再開していきたい。(本業が忙しく、まったく最新の状況を追えていない&amp;hellip;)今年買って良かったもの  ergodox ez: 肩こりに圧倒的に効果があり、自宅用にも買ってしまった boseのnoise canceling headphone: 周りがうるさくても、集中できて良い 電動アシスト自転車: 移動へのハードルが圧倒的に下がって、行動範囲が広くなった  皆様良いお年を">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Parakeety&#39;s Blog">
-<meta name="twitter:url" content="https://parakeety.github.io/posts/golang-oss-contribution/">
-<meta name="twitter:title" content="Goで書かれたOSSにPR送る時のimport問題 - Parakeety&#39;s Blog">
-<meta name="twitter:description" content="&lt;p&gt;githubでhostされているOSSにPRを送る時に&lt;/p&gt;&lt;ol&gt;&lt;li&gt;forkする&lt;/li&gt;&lt;li&gt;forkしたrepositoryを手元にcloneする&lt;/li&gt;&lt;li&gt;作業&lt;/li&gt;&lt;li&gt;forkにpush&lt;/li&gt;&lt;li&gt;PR送る&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
+<meta name="twitter:url" content="https://parakeety.github.io/posts/2018-review/">
+<meta name="twitter:title" content="2018年振り返り - Parakeety&#39;s Blog">
+<meta name="twitter:description" content="2018年は4月に仕事でサーバーサイドエンジニアをやることになったのが、一番大きな変化だった。iOSと同じレベルにはまだほど遠いが、golangを用いたmicroserviceの開発にも少しずつ慣れてきた。まだまだkubernetes、cloud spannerやmicroserviceの勉強が足りないので、引き続き頑張りたい。新しい事を始めた事に加え、責任が重いmicroserviceを触ることになったこともあり、ストレスからか今年は体調を崩す事が多かった。どういう時に体調崩しやすいか少しずつ傾向がわかってきたため、来年は予防に気をつけて過ごすようにしたい。来年は、更に新しい事を始めるというよりは、今年始めた事を深める年にしたい。暗号通貨のOSSへのcontributeも少しずつ再開していきたい。(本業が忙しく、まったく最新の状況を追えていない&amp;hellip;)今年買って良かったもの  ergodox ez: 肩こりに圧倒的に効果があり、自宅用にも買ってしまった boseのnoise canceling headphone: 周りがうるさくても、集中できて良い 電動アシスト自転車: 移動へのハードルが圧倒的に下がって、行動範囲が広くなった  皆様良いお年を">
 <meta name="twitter:image" content="https://parakeety.github.io/images/default.png">
 
 
@@ -49,15 +49,15 @@
       "@type": "WebPage",
       "@id":"https://parakeety.github.io/"
     },
-    "headline": "Goで書かれたOSSにPR送る時のimport問題 - Parakeety&#39;s Blog",
+    "headline": "2018年振り返り - Parakeety&#39;s Blog",
     "image": {
       "@type": "ImageObject",
       "url": "https://parakeety.github.io/images/default.png",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2018-05-22T19:58:03JST",
-    "dateModified": "2018-05-22T19:58:03JST",
+    "datePublished": "2018-12-31T18:51:07JST",
+    "dateModified": "2018-12-31T18:51:07JST",
     "author": {
       "@type": "Person",
       "name": "Parakeety&#39;s Blog"
@@ -72,19 +72,10 @@
         "height": 60
       }
     },
-    "description": "<p>githubでhostされているOSSにPRを送る時に</p>
-
-<ol>
-<li>forkする</li>
-<li>forkしたrepositoryを手元にcloneする</li>
-<li>作業</li>
-<li>forkにpush</li>
-<li>PR送る</li>
-</ol>
-
-<p>という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。</p>
-
-<p></p>"
+    "description": "2018年は4月に仕事でサーバーサイドエンジニアをやることになったのが、一番大きな変化だった。iOSと同じレベルにはまだほど遠いが、golangを用いたmicroserviceの開発にも少しずつ慣れてきた。まだまだkubernetes、cloud spannerやmicroserviceの勉強が足りないので、引き続き頑張りたい。
+新しい事を始めた事に加え、責任が重いmicroserviceを触ることになったこともあり、ストレスからか今年は体調を崩す事が多かった。どういう時に体調崩しやすいか少しずつ傾向がわかってきたため、来年は予防に気をつけて過ごすようにしたい。
+来年は、更に新しい事を始めるというよりは、今年始めた事を深める年にしたい。暗号通貨のOSSへのcontributeも少しずつ再開していきたい。(本業が忙しく、まったく最新の状況を追えていない&hellip;)
+今年買って良かったもの  ergodox ez: 肩こりに圧倒的に効果があり、自宅用にも買ってしまった boseのnoise canceling headphone: 周りがうるさくても、集中できて良い 電動アシスト自転車: 移動へのハードルが圧倒的に下がって、行動範囲が広くなった  皆様良いお年を"
   }
 </script>
 
@@ -112,14 +103,14 @@
     <main>
       
 <div class="l-container">
-  <article class="single article-7e37e0fd489ca0dee648c1d119fe8b5e">
+  <article class="single article-5bac0c134db0c4cdc86b290f0a095352">
   <div class="header-wrapper">
-    <a href="https://parakeety.github.io/posts/golang-oss-contribution/" class="thumbnail" title="Goで書かれたOSSにPR送る時のimport問題"></a>
+    <a href="https://parakeety.github.io/posts/2018-review/" class="thumbnail" title="2018年振り返り"></a>
     <header class="article-header">
       <div class="clearfix">
-        <h1 class="title">Goで書かれたOSSにPR送る時のimport問題</h1>
+        <h1 class="title">2018年振り返り</h1>
         <ul class="p-facts">
-          <li><time datetime="2018-05-22T19:58:03JST">May 22, 2018</time></li>
+          <li><time datetime="2018-12-31T18:51:07JST">Dec 31, 2018</time></li>
           <li><a href="https://parakeety.github.io/posts/">posts</a></li>
           
         </ul>
@@ -128,56 +119,39 @@
   </div>
 
   <aside class="p-share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f&title=Go%e3%81%a7%e6%9b%b8%e3%81%8b%e3%82%8c%e3%81%9fOSS%e3%81%abPR%e9%80%81%e3%82%8b%e6%99%82%e3%81%aeimport%e5%95%8f%e9%a1%8c" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f&t=Go%e3%81%a7%e6%9b%b8%e3%81%8b%e3%82%8c%e3%81%9fOSS%e3%81%abPR%e9%80%81%e3%82%8b%e6%99%82%e3%81%aeimport%e5%95%8f%e9%a1%8c" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f&text=Go%e3%81%a7%e6%9b%b8%e3%81%8b%e3%82%8c%e3%81%9fOSS%e3%81%abPR%e9%80%81%e3%82%8b%e6%99%82%e3%81%aeimport%e5%95%8f%e9%a1%8c&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
-  <a href="http://line.me/R/msg/text/?Go%e3%81%a7%e6%9b%b8%e3%81%8b%e3%82%8c%e3%81%9fOSS%e3%81%abPR%e9%80%81%e3%82%8b%e6%99%82%e3%81%aeimport%e5%95%8f%e9%a1%8c https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f&title=2018%e5%b9%b4%e6%8c%af%e3%82%8a%e8%bf%94%e3%82%8a" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f&t=2018%e5%b9%b4%e6%8c%af%e3%82%8a%e8%bf%94%e3%82%8a" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f&text=2018%e5%b9%b4%e6%8c%af%e3%82%8a%e8%bf%94%e3%82%8a&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
+  <a href="http://line.me/R/msg/text/?2018%e5%b9%b4%e6%8c%af%e3%82%8a%e8%bf%94%e3%82%8a https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
 </aside>
 
 
-  <div class="article-body"><p>githubでhostされているOSSにPRを送る時に</p>
+  <div class="article-body">
+
+<p>2018年は4月に仕事でサーバーサイドエンジニアをやることになったのが、一番大きな変化だった。iOSと同じレベルにはまだほど遠いが、golangを用いたmicroserviceの開発にも少しずつ慣れてきた。まだまだkubernetes、cloud spannerやmicroserviceの勉強が足りないので、引き続き頑張りたい。</p>
+
+<p>新しい事を始めた事に加え、責任が重いmicroserviceを触ることになったこともあり、ストレスからか今年は体調を崩す事が多かった。どういう時に体調崩しやすいか少しずつ傾向がわかってきたため、来年は予防に気をつけて過ごすようにしたい。</p>
+
+<p>来年は、更に新しい事を始めるというよりは、今年始めた事を深める年にしたい。暗号通貨のOSSへのcontributeも少しずつ再開していきたい。(本業が忙しく、まったく最新の状況を追えていない&hellip;)</p>
+
+<h2 id="今年買って良かったもの">今年買って良かったもの</h2>
 
 <ol>
-<li>forkする</li>
-<li>forkしたrepositoryを手元にcloneする</li>
-<li>作業</li>
-<li>forkにpush</li>
-<li>PR送る</li>
+<li>ergodox ez: 肩こりに圧倒的に効果があり、自宅用にも買ってしまった</li>
+<li>boseのnoise canceling headphone: 周りがうるさくても、集中できて良い</li>
+<li>電動アシスト自転車: 移動へのハードルが圧倒的に下がって、行動範囲が広くなった</li>
 </ol>
 
-<p>という流れで作業する事が多いのですが、Goで書かれているOSSの場合、forkしたコード内でfork元の方のsubpackageをimportして動かない事がありました。</p>
-
-<p></p>
-
-<pre><code class="language-go">// fork元
-import &quot;github.com/original/subpackage&quot;
-</code></pre>
-
-<pre><code class="language-go">// fork
-import &quot;github.com/original/subpackage&quot; // 本当は&quot;github.com/fork/subpackage&quot;を指して欲しい
-</code></pre>
-
-<h2 id="解決策">解決策</h2>
-
-<p><a href="http://blog.campoy.cat/2014/03/github-and-go-forking-pull-requests-and.html">こちらの記事</a>に書いてあるように、</p>
-
-<ol>
-<li>forkする</li>
-<li>originalの方のrepositoryをcloneする</li>
-<li>2でcloneしたrepositoryに、1のrepositoryをremoteとして追加する</li>
-<li>2でcloneしたrepoistoryで作業</li>
-<li>3で追加したforkにpush</li>
-</ol>
-
-<p>でやるのが良さそうです。</p></div>
+<p>皆様良いお年を</p>
+</div>
 
   <aside class="p-share">
-  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f&title=Go%e3%81%a7%e6%9b%b8%e3%81%8b%e3%82%8c%e3%81%9fOSS%e3%81%abPR%e9%80%81%e3%82%8b%e6%99%82%e3%81%aeimport%e5%95%8f%e9%a1%8c" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
-  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f&t=Go%e3%81%a7%e6%9b%b8%e3%81%8b%e3%82%8c%e3%81%9fOSS%e3%81%abPR%e9%80%81%e3%82%8b%e6%99%82%e3%81%aeimport%e5%95%8f%e9%a1%8c" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
-  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f&text=Go%e3%81%a7%e6%9b%b8%e3%81%8b%e3%82%8c%e3%81%9fOSS%e3%81%abPR%e9%80%81%e3%82%8b%e6%99%82%e3%81%aeimport%e5%95%8f%e9%a1%8c&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
-  <a href="https://plus.google.com/share?url=https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
-  <a href="http://line.me/R/msg/text/?Go%e3%81%a7%e6%9b%b8%e3%81%8b%e3%82%8c%e3%81%9fOSS%e3%81%abPR%e9%80%81%e3%82%8b%e6%99%82%e3%81%aeimport%e5%95%8f%e9%a1%8c https%3a%2f%2fparakeety.github.io%2fposts%2fgolang-oss-contribution%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f&title=2018%e5%b9%b4%e6%8c%af%e3%82%8a%e8%bf%94%e3%82%8a" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>
+  <a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f&t=2018%e5%b9%b4%e6%8c%af%e3%82%8a%e8%bf%94%e3%82%8a" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"></a>
+  <a href="http://twitter.com/intent/tweet?url=https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f&text=2018%e5%b9%b4%e6%8c%af%e3%82%8a%e8%bf%94%e3%82%8a&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"></a>
+  <a href="https://plus.google.com/share?url=https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"></a>
+  <a href="http://line.me/R/msg/text/?2018%e5%b9%b4%e6%8c%af%e3%82%8a%e8%bf%94%e3%82%8a https%3a%2f%2fparakeety.github.io%2fposts%2f2018-review%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"></a>
 </aside>
 
 
@@ -188,7 +162,7 @@ import &quot;github.com/original/subpackage&quot; // 本当は&quot;github.com/f
         
         <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://parakeety.github.io/posts/" itemprop="url"><span itemprop="title">posts</span></a></li>
         
-        <li>Goで書かれたOSSにPR送る時のimport問題</li>
+        <li>2018年振り返り</li>
       </ol>
 
       
@@ -208,22 +182,7 @@ import &quot;github.com/original/subpackage&quot; // 本当は&quot;github.com/f
   <section>
     <header><span>Latests</span></header>
     <ul class="p-articles thin">
-      <li><article class="li sm article-5bac0c134db0c4cdc86b290f0a095352">
-  <div class="header-wrapper">
-    <a href="https://parakeety.github.io/posts/2018-review/" class="thumbnail" title="2018年振り返り"></a>
-    <header class="article-header">
-      <div class="clearfix">
-        <h2 class="title"><a href="https://parakeety.github.io/posts/2018-review/">2018年振り返り</a></h2>
-        <ul class="p-facts">
-          <li><time datetime="2018-12-31T18:51:07JST">Dec 31, 2018</time></li>
-          <li><a href="https://parakeety.github.io/posts/">posts</a></li>
-          
-        </ul>
-      </div>
-    </header>
-  </div>
-</article>
-</li><li><article class="li sm article-5d35ef8c77f988bcc9bf853857b43576">
+      <li><article class="li sm article-5d35ef8c77f988bcc9bf853857b43576">
   <div class="header-wrapper">
     <a href="https://parakeety.github.io/posts/lightning-network-watchtower/" class="thumbnail" title="Blockchain TokyoでLightning NetworkのWatchtowerについて発表しました"></a>
     <header class="article-header">
@@ -231,6 +190,21 @@ import &quot;github.com/original/subpackage&quot; // 本当は&quot;github.com/f
         <h2 class="title"><a href="https://parakeety.github.io/posts/lightning-network-watchtower/">Blockchain TokyoでLightning NetworkのWatchtowerについて発表しました</a></h2>
         <ul class="p-facts">
           <li><time datetime="2018-05-25T20:09:54JST">May 25, 2018</time></li>
+          <li><a href="https://parakeety.github.io/posts/">posts</a></li>
+          
+        </ul>
+      </div>
+    </header>
+  </div>
+</article>
+</li><li><article class="li sm article-7e37e0fd489ca0dee648c1d119fe8b5e">
+  <div class="header-wrapper">
+    <a href="https://parakeety.github.io/posts/golang-oss-contribution/" class="thumbnail" title="Goで書かれたOSSにPR送る時のimport問題"></a>
+    <header class="article-header">
+      <div class="clearfix">
+        <h2 class="title"><a href="https://parakeety.github.io/posts/golang-oss-contribution/">Goで書かれたOSSにPR送る時のimport問題</a></h2>
+        <ul class="p-facts">
+          <li><time datetime="2018-05-22T19:58:03JST">May 22, 2018</time></li>
           <li><a href="https://parakeety.github.io/posts/">posts</a></li>
           
         </ul>
