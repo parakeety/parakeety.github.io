@@ -23,21 +23,21 @@
     
     
     
-<meta name="description" content="以前書いたように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。 元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた) web applicationを開発するとのことで、net/http周りを触っていたが、net/httpは今のところほぼ使っていない&amp;hellip; microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 gRPC and REST with gRPC in practice がとても良かった わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい 独り立ちまでは中々遠い  ">
+<meta name="description" content="&lt;p&gt;&lt;a href=&#34;/posts/go-server-side&#34;&gt;以前書いた&lt;/a&gt;ように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
 
 <meta property="og:title" content="Goでサーバーサイドを書き始めて1ヶ月経った - Parakeety&#39;s Blog">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://parakeety.github.io/posts/first-month-go-server-side/">
 <meta property="og:image" content="https://parakeety.github.io/images/default.png">
 <meta property="og:site_name" content="Parakeety&#39;s Blog">
-<meta property="og:description" content="以前書いたように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。 元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた) web applicationを開発するとのことで、net/http周りを触っていたが、net/httpは今のところほぼ使っていない&amp;hellip; microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 gRPC and REST with gRPC in practice がとても良かった わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい 独り立ちまでは中々遠い  ">
+<meta property="og:description" content="&lt;p&gt;&lt;a href=&#34;/posts/go-server-side&#34;&gt;以前書いた&lt;/a&gt;ように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Parakeety&#39;s Blog">
 <meta name="twitter:url" content="https://parakeety.github.io/posts/first-month-go-server-side/">
 <meta name="twitter:title" content="Goでサーバーサイドを書き始めて1ヶ月経った - Parakeety&#39;s Blog">
-<meta name="twitter:description" content="以前書いたように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。 元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた) web applicationを開発するとのことで、net/http周りを触っていたが、net/httpは今のところほぼ使っていない&amp;hellip; microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 gRPC and REST with gRPC in practice がとても良かった わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい 独り立ちまでは中々遠い  ">
+<meta name="twitter:description" content="&lt;p&gt;&lt;a href=&#34;/posts/go-server-side&#34;&gt;以前書いた&lt;/a&gt;ように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;">
 <meta name="twitter:image" content="https://parakeety.github.io/images/default.png">
 
 
@@ -72,8 +72,9 @@
         "height": 60
       }
     },
-    "description": "以前書いたように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。
- 元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた) web applicationを開発するとのことで、net/http周りを触っていたが、net/httpは今のところほぼ使っていない&hellip; microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 gRPC and REST with gRPC in practice がとても良かった わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい 独り立ちまでは中々遠い  "
+    "description": "<p><a href="/posts/go-server-side">以前書いた</a>ように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。</p>
+
+<p></p>"
   }
 </script>
 
@@ -127,14 +128,15 @@
 
   <div class="article-body"><p><a href="/posts/go-server-side">以前書いた</a>ように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。</p>
 
+<p></p>
+
 <ul>
 <li>元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた)</li>
 <li>web applicationを開発するとのことで、<code>net/http</code>周りを触っていたが、<code>net/http</code>は今のところほぼ使っていない&hellip;</li>
 <li>microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 <a href="https://speakerdeck.com/kazegusuri/grpc-and-rest-with-grpc-in-practice">gRPC and REST with gRPC in practice</a> がとても良かった</li>
 <li>わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい</li>
 <li>独り立ちまでは中々遠い</li>
-</ul>
-</div>
+</ul></div>
 
   <aside class="p-share">
   <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fparakeety.github.io%2fposts%2ffirst-month-go-server-side%2f&title=Go%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%b5%e3%82%a4%e3%83%89%e3%82%92%e6%9b%b8%e3%81%8d%e5%a7%8b%e3%82%81%e3%81%a61%e3%83%b6%e6%9c%88%e7%b5%8c%e3%81%a3%e3%81%9f" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow"></a>

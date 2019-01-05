@@ -17,10 +17,9 @@
       <pubDate>Mon, 31 Dec 2018 18:51:07 +0900</pubDate>
       
       <guid>https://parakeety.github.io/posts/2018-review/</guid>
-      <description>2018年は4月に仕事でサーバーサイドエンジニアをやることになったのが、一番大きな変化だった。iOSと同じレベルにはまだほど遠いが、golangを用いたmicroserviceの開発にも少しずつ慣れてきた。まだまだkubernetes、cloud spannerやmicroserviceの勉強が足りないので、引き続き頑張りたい。
-新しい事を始めた事に加え、責任が重いmicroserviceを触ることになったこともあり、ストレスからか今年は体調を崩す事が多かった。どういう時に体調崩しやすいか少しずつ傾向がわかってきたため、来年は予防に気をつけて過ごすようにしたい。
-来年は、更に新しい事を始めるというよりは、今年始めた事を深める年にしたい。暗号通貨のOSSへのcontributeも少しずつ再開していきたい。(本業が忙しく、まったく最新の状況を追えていない&amp;hellip;)
-今年買って良かったもの  ergodox ez: 肩こりに圧倒的に効果があり、自宅用にも買ってしまった boseのnoise canceling headphone: 周りがうるさくても、集中できて良い 電動アシスト自転車: 移動へのハードルが圧倒的に下がって、行動範囲が広くなった  皆様良いお年を</description>
+      <description>&lt;p&gt;2018年の振り返り&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,9 +28,9 @@
       <pubDate>Fri, 25 May 2018 20:09:54 +0900</pubDate>
       
       <guid>https://parakeety.github.io/posts/lightning-network-watchtower/</guid>
-      <description>2018/05/24に開催されたBlockchain tokyo#8のLT枠で、Lightning NetworkのWatchtowerについて発表してきました。
- Watchtower自体はまだ実装されていない機能なのですが、モバイルなどの端末からLightning Networkを使うには必須の機能です。
-今後も機会があればLightning Networkについてちょくちょく発表していきたいです。</description>
+      <description>&lt;p&gt;2018/05/24に開催された&lt;a href=&#34;https://blockchain-tokyo.connpass.com/event/85149/&#34;&gt;Blockchain tokyo#8&lt;/a&gt;のLT枠で、Lightning NetworkのWatchtowerについて発表してきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -61,8 +60,9 @@
       <pubDate>Sun, 06 May 2018 20:43:43 +0900</pubDate>
       
       <guid>https://parakeety.github.io/posts/first-month-go-server-side/</guid>
-      <description>以前書いたように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。
- 元々Starting Goを読んでいたが、contextとgoroutine/channel周りの知識が怪しかったので、勉強した(Starting GoはGo 1.6を扱っていて、context packageはGo 1.7から導入されたから言及すらされていなかったことに後々気づいた) web applicationを開発するとのことで、net/http周りを触っていたが、net/httpは今のところほぼ使っていない&amp;hellip; microservice間の通信を実装していたので、grpcの知識が必要で勉強した。勉強にあたって、 gRPC and REST with gRPC in practice がとても良かった わからない事だらけで大量に勉強することがあるが、逆に言えば伸び代が大きくて、毎日楽しい 独り立ちまでは中々遠い  </description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://parakeety.github.io/posts/go-server-side&#34;&gt;以前書いた&lt;/a&gt;ように、4月からGo言語でサーバーサイドのアプリケーションを書いています。始めてから1ヶ月経ったので、忘れない内に所感を残しておきたいと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,8 +71,9 @@
       <pubDate>Sun, 01 Apr 2018 21:10:13 +0900</pubDate>
       
       <guid>https://parakeety.github.io/posts/go-server-side/</guid>
-      <description>ここ何年かはずっとiOSエンジニアとして、主にiPhoneアプリの開発をしていましたが、Go/サーバーサイドを4月からやることになりました。contributeしたいと思っていたOSSがGoで書かれていたこともあり、プライベートの時間を使ってGoを勉強していましたが、本業でもGoをやれるようになると、学習速度が一気に上がりそうだなと期待しています。
-今の心境としては、新しい事に挑戦できるというワクワクした気持ちと、果たしてやっていけるのだろうかという不安が入り混じった気持ちです。</description>
+      <description>&lt;p&gt;ここ何年かはずっとiOSエンジニアとして、主にiPhoneアプリの開発をしていましたが、Go/サーバーサイドを4月からやることになりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
