@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on Parakeety&#39;s Blog</title>
@@ -18,10 +18,7 @@
       
       <guid>https://parakeety.github.io/posts/starting-go/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/4798142417&#34;&gt;スターティングGo言語&lt;/a&gt;を読み終わりました。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/lightningnetwork/lnd&#34;&gt;lnd&lt;/a&gt;にcontributeにしたいなと調べていたら、lndはGoで書かれており、&lt;a href=&#34;https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md&#34;&gt;contribution guide&lt;/a&gt;のRequired Readingに&lt;a href=&#34;https://golang.org/doc/effective_go.html&#34;&gt;effective go&lt;/a&gt;があり、effective go読む前にもっと基礎的な部分を勉強しようと思い、スターティングGo言語を手に取りました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/lightningnetwork/lnd&#34;&gt;lnd&lt;/a&gt;にcontributeにしたいなと調べていたら、lndはGoで書かれており、&lt;a href=&#34;https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md&#34;&gt;contribution guide&lt;/a&gt;のRequired Readingに&lt;a href=&#34;https://golang.org/doc/effective_go.html&#34;&gt;effective go&lt;/a&gt;があり、effective go読む前にもっと基礎的な部分を勉強しようと思い、スターティングGo言語を手に取りました。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,9 +27,7 @@
       <pubDate>Sat, 18 Nov 2017 08:00:03 +0900</pubDate>
       
       <guid>https://parakeety.github.io/posts/golang-mouse/</guid>
-      <description>&lt;p&gt;仮想通貨のプロジェクトはGolangで書かれているものが多いのと、本業のサーバーサイド側ではGolangを採用しているため、ずっとGolang勉強したいなとは思っていて、今回&lt;a href=&#34;https://www.amazon.co.jp/dp/B06XJ86BFZ/&#34;&gt;「プログラミング経験者がGo言語を本格的に勉強する前に読むための本」&lt;/a&gt;を手に取りました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;仮想通貨のプロジェクトはGolangで書かれているものが多いのと、本業のサーバーサイド側ではGolangを採用しているため、ずっとGolang勉強したいなとは思っていて、今回&lt;a href=&#34;https://www.amazon.co.jp/dp/B06XJ86BFZ/&#34;&gt;「プログラミング経験者がGo言語を本格的に勉強する前に読むための本」&lt;/a&gt;を手に取りました。&lt;/p&gt;</description>
     </item>
     
   </channel>

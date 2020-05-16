@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bitcoin on Parakeety&#39;s Blog</title>
@@ -17,9 +17,7 @@
       <pubDate>Mon, 12 Feb 2018 09:50:00 +0900</pubDate>
       
       <guid>https://parakeety.github.io/posts/lightning-network-node/</guid>
-      <description>&lt;p&gt;Lightning Networkのノードをmainnetに立てました。基本的には&lt;a href=&#34;https://medium.com/@dougvk/run-your-own-mainnet-lightning-node-2d2eab628a8b&#34;&gt;Run your own mainnet Lightning Node&lt;/a&gt;に従ってやりました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Lightning Networkのノードをmainnetに立てました。基本的には&lt;a href=&#34;https://medium.com/@dougvk/run-your-own-mainnet-lightning-node-2d2eab628a8b&#34;&gt;Run your own mainnet Lightning Node&lt;/a&gt;に従ってやりました。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,9 +26,7 @@
       <pubDate>Fri, 09 Feb 2018 10:33:45 +0900</pubDate>
       
       <guid>https://parakeety.github.io/posts/raspberry-pi-bitcoin-full-node/</guid>
-      <description>&lt;p&gt;Raspberry PiにBitcoinのフルノードを立てました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Raspberry PiにBitcoinのフルノードを立てました。&lt;/p&gt;</description>
     </item>
     
   </channel>

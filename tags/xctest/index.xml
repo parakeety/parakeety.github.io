@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xctest on Parakeety&#39;s Blog</title>
+    <title>xctest on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/xctest/</link>
-    <description>Recent content in Xctest on Parakeety&#39;s Blog</description>
+    <description>Recent content in xctest on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 06 Oct 2014 23:16:00 -0700</lastBuildDate>
@@ -18,11 +18,8 @@
       
       <guid>https://parakeety.github.io/posts/xctestexpectation/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
-
 &lt;p&gt;&lt;code&gt;XCTestExpectation&lt;/code&gt;とは、xcode6にて追加された非同期テスト用のAPIです。
-これまで、非同期な処理のテストをするのにGCDのAPIを使ったり、&lt;a href=&#34;https://github.com/travisjeffery/TRVSMonitor&#34;&gt;TRVSMonitor&lt;/a&gt;等のライブラリを使う必要がありましたが、今後は&lt;code&gt;XCTestExpectation&lt;/code&gt;を使うことができます。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+これまで、非同期な処理のテストをするのにGCDのAPIを使ったり、&lt;a href=&#34;https://github.com/travisjeffery/TRVSMonitor&#34;&gt;TRVSMonitor&lt;/a&gt;等のライブラリを使う必要がありましたが、今後は&lt;code&gt;XCTestExpectation&lt;/code&gt;を使うことができます。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,10 +29,7 @@
       
       <guid>https://parakeety.github.io/posts/ios-learned-lessons/</guid>
       <description>&lt;h2 id=&#34;viewは最初の設計でうまくいかない事が多い&#34;&gt;Viewは最初の設計でうまくいかない事が多い&lt;/h2&gt;
-
-&lt;p&gt;iOSにおけるViewは様々な制約(subclassしてはいけない、subclassしないといけない)があり、最初にしっかり設計しても、ハウルの動く城の様につぎはぎになってしまう事が多いです。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;iOSにおけるViewは様々な制約(subclassしてはいけない、subclassしないといけない)があり、最初にしっかり設計しても、ハウルの動く城の様につぎはぎになってしまう事が多いです。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -44,9 +38,7 @@
       <pubDate>Fri, 28 Mar 2014 16:19:32 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/xctest-refactoring/</guid>
-      <description>&lt;p&gt;XCTestで書いたUnit testのrefactoringを試みたのですが、個人的にすっきりする方法が見つかりませんでした。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;XCTestで書いたUnit testのrefactoringを試みたのですが、個人的にすっきりする方法が見つかりませんでした。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Parakeety&#39;s Blog</title>
@@ -6,46 +6,10 @@
     <description>Recent content in Tags on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 18 Oct 2014 16:02:07 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 12 Feb 2018 09:50:00 +0900</lastBuildDate>
     
 	<atom:link href="https://parakeety.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Ack</title>
-      <link>https://parakeety.github.io/tags/ack/</link>
-      <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/ack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ag</title>
-      <link>https://parakeety.github.io/tags/ag/</link>
-      <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/ag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>App</title>
-      <link>https://parakeety.github.io/tags/app/</link>
-      <pubDate>Mon, 15 Feb 2016 13:54:44 +0000</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/app/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Base64</title>
-      <link>https://parakeety.github.io/tags/base64/</link>
-      <pubDate>Tue, 01 Apr 2014 23:49:45 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/base64/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Bitcoin</title>
@@ -53,69 +17,6 @@
       <pubDate>Mon, 12 Feb 2018 09:50:00 +0900</pubDate>
       
       <guid>https://parakeety.github.io/tags/bitcoin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>https://parakeety.github.io/tags/cloud/</link>
-      <pubDate>Sat, 14 Oct 2017 12:07:37 +0900</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cocoapods</title>
-      <link>https://parakeety.github.io/tags/cocoapods/</link>
-      <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/cocoapods/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cocoapods Trunk</title>
-      <link>https://parakeety.github.io/tags/cocoapods-trunk/</link>
-      <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/cocoapods-trunk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coffeelint</title>
-      <link>https://parakeety.github.io/tags/coffeelint/</link>
-      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/coffeelint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coffeelint Prefer English Operator</title>
-      <link>https://parakeety.github.io/tags/coffeelint-prefer-english-operator/</link>
-      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/coffeelint-prefer-english-operator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coffeescript</title>
-      <link>https://parakeety.github.io/tags/coffeescript/</link>
-      <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/coffeescript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Countdown</title>
-      <link>https://parakeety.github.io/tags/countdown/</link>
-      <pubDate>Mon, 15 Feb 2016 13:54:44 +0000</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/countdown/</guid>
       <description></description>
     </item>
     
@@ -129,236 +30,11 @@
     </item>
     
     <item>
-      <title>Custom Rule</title>
-      <link>https://parakeety.github.io/tags/custom-rule/</link>
-      <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/custom-rule/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gcp</title>
-      <link>https://parakeety.github.io/tags/gcp/</link>
-      <pubDate>Sat, 14 Oct 2017 12:07:37 +0900</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/gcp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ghq</title>
-      <link>https://parakeety.github.io/tags/ghq/</link>
-      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/ghq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://parakeety.github.io/tags/github/</link>
-      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://parakeety.github.io/tags/go/</link>
-      <pubDate>Wed, 31 Jan 2018 11:02:32 +0900</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Fonts</title>
-      <link>https://parakeety.github.io/tags/google-fonts/</link>
-      <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/google-fonts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Fonts Ios</title>
-      <link>https://parakeety.github.io/tags/google-fonts-ios/</link>
-      <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/google-fonts-ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Googlefontsios</title>
-      <link>https://parakeety.github.io/tags/googlefontsios/</link>
-      <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/googlefontsios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grep</title>
-      <link>https://parakeety.github.io/tags/grep/</link>
-      <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/grep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ios</title>
-      <link>https://parakeety.github.io/tags/ios/</link>
-      <pubDate>Sat, 14 Oct 2017 11:50:09 +0900</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jobchange</title>
-      <link>https://parakeety.github.io/tags/jobchange/</link>
-      <pubDate>Sun, 01 Jan 2017 16:02:07 +0000</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/jobchange/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Lightning Network</title>
       <link>https://parakeety.github.io/tags/lightning-network/</link>
       <pubDate>Mon, 12 Feb 2018 09:50:00 +0900</pubDate>
       
       <guid>https://parakeety.github.io/tags/lightning-network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Magicalrecord</title>
-      <link>https://parakeety.github.io/tags/magicalrecord/</link>
-      <pubDate>Wed, 17 Dec 2014 01:29:52 -0800</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/magicalrecord/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Middleman</title>
-      <link>https://parakeety.github.io/tags/middleman/</link>
-      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/middleman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile</title>
-      <link>https://parakeety.github.io/tags/mobile/</link>
-      <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Namecheap</title>
-      <link>https://parakeety.github.io/tags/namecheap/</link>
-      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/namecheap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nend</title>
-      <link>https://parakeety.github.io/tags/nend/</link>
-      <pubDate>Sun, 22 Jun 2014 00:57:48 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/nend/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Npm</title>
-      <link>https://parakeety.github.io/tags/npm/</link>
-      <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/npm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nsdateformatter</title>
-      <link>https://parakeety.github.io/tags/nsdateformatter/</link>
-      <pubDate>Mon, 27 Oct 2014 11:40:17 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/nsdateformatter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nserror</title>
-      <link>https://parakeety.github.io/tags/nserror/</link>
-      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/nserror/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nsexception</title>
-      <link>https://parakeety.github.io/tags/nsexception/</link>
-      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/nsexception/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Objective C</title>
-      <link>https://parakeety.github.io/tags/objective-c/</link>
-      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/objective-c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oss</title>
-      <link>https://parakeety.github.io/tags/oss/</link>
-      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/oss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Peco</title>
-      <link>https://parakeety.github.io/tags/peco/</link>
-      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/peco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://parakeety.github.io/tags/portfolio/</link>
-      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/portfolio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://parakeety.github.io/tags/python/</link>
-      <pubDate>Mon, 30 Jun 2014 00:26:10 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/python/</guid>
       <description></description>
     </item>
     
@@ -372,7 +48,43 @@
     </item>
     
     <item>
-      <title>Rxswift</title>
+      <title>Go</title>
+      <link>https://parakeety.github.io/tags/go/</link>
+      <pubDate>Wed, 31 Jan 2018 11:02:32 +0900</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://parakeety.github.io/tags/cloud/</link>
+      <pubDate>Sat, 14 Oct 2017 12:07:37 +0900</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCP</title>
+      <link>https://parakeety.github.io/tags/gcp/</link>
+      <pubDate>Sat, 14 Oct 2017 12:07:37 +0900</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/gcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iOS</title>
+      <link>https://parakeety.github.io/tags/ios/</link>
+      <pubDate>Sat, 14 Oct 2017 11:50:09 +0900</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RxSwift</title>
       <link>https://parakeety.github.io/tags/rxswift/</link>
       <pubDate>Sat, 14 Oct 2017 11:50:09 +0900</pubDate>
       
@@ -381,20 +93,83 @@
     </item>
     
     <item>
-      <title>S3</title>
-      <link>https://parakeety.github.io/tags/s3/</link>
-      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
+      <title>jobchange</title>
+      <link>https://parakeety.github.io/tags/jobchange/</link>
+      <pubDate>Sun, 01 Jan 2017 16:02:07 +0000</pubDate>
       
-      <guid>https://parakeety.github.io/tags/s3/</guid>
+      <guid>https://parakeety.github.io/tags/jobchange/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Safari</title>
-      <link>https://parakeety.github.io/tags/safari/</link>
-      <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
+      <title>app</title>
+      <link>https://parakeety.github.io/tags/app/</link>
+      <pubDate>Mon, 15 Feb 2016 13:54:44 +0000</pubDate>
       
-      <guid>https://parakeety.github.io/tags/safari/</guid>
+      <guid>https://parakeety.github.io/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>countdown</title>
+      <link>https://parakeety.github.io/tags/countdown/</link>
+      <pubDate>Mon, 15 Feb 2016 13:54:44 +0000</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/countdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Fonts</title>
+      <link>https://parakeety.github.io/tags/google-fonts/</link>
+      <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/google-fonts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Fonts iOS</title>
+      <link>https://parakeety.github.io/tags/google-fonts-ios/</link>
+      <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/google-fonts-ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GoogleFontsiOS</title>
+      <link>https://parakeety.github.io/tags/googlefontsios/</link>
+      <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/googlefontsios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NSError</title>
+      <link>https://parakeety.github.io/tags/nserror/</link>
+      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/nserror/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NSException</title>
+      <link>https://parakeety.github.io/tags/nsexception/</link>
+      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/nsexception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Objective-c</title>
+      <link>https://parakeety.github.io/tags/objective-c/</link>
+      <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/objective-c/</guid>
       <description></description>
     </item>
     
@@ -408,7 +183,178 @@
     </item>
     
     <item>
-      <title>Tig</title>
+      <title>MagicalRecord</title>
+      <link>https://parakeety.github.io/tags/magicalrecord/</link>
+      <pubDate>Wed, 17 Dec 2014 01:29:52 -0800</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/magicalrecord/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>middleman</title>
+      <link>https://parakeety.github.io/tags/middleman/</link>
+      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/middleman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>namecheap</title>
+      <link>https://parakeety.github.io/tags/namecheap/</link>
+      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/namecheap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>portfolio</title>
+      <link>https://parakeety.github.io/tags/portfolio/</link>
+      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/portfolio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>s3</title>
+      <link>https://parakeety.github.io/tags/s3/</link>
+      <pubDate>Sat, 22 Nov 2014 01:22:05 -0800</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NSDateFormatter</title>
+      <link>https://parakeety.github.io/tags/nsdateformatter/</link>
+      <pubDate>Mon, 27 Oct 2014 11:40:17 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/nsdateformatter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ack</title>
+      <link>https://parakeety.github.io/tags/ack/</link>
+      <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/ack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ag</title>
+      <link>https://parakeety.github.io/tags/ag/</link>
+      <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/ag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grep</title>
+      <link>https://parakeety.github.io/tags/grep/</link>
+      <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/grep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xctest</title>
+      <link>https://parakeety.github.io/tags/xctest/</link>
+      <pubDate>Mon, 06 Oct 2014 23:16:00 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/xctest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XCTestExpectation</title>
+      <link>https://parakeety.github.io/tags/xctestexpectation/</link>
+      <pubDate>Mon, 06 Oct 2014 23:16:00 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/xctestexpectation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cocoapods</title>
+      <link>https://parakeety.github.io/tags/cocoapods/</link>
+      <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/cocoapods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cocoapods-trunk</title>
+      <link>https://parakeety.github.io/tags/cocoapods-trunk/</link>
+      <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/cocoapods-trunk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coffeelint</title>
+      <link>https://parakeety.github.io/tags/coffeelint/</link>
+      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/coffeelint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coffeelint-prefer-english-operator</title>
+      <link>https://parakeety.github.io/tags/coffeelint-prefer-english-operator/</link>
+      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/coffeelint-prefer-english-operator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://parakeety.github.io/tags/github/</link>
+      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oss</title>
+      <link>https://parakeety.github.io/tags/oss/</link>
+      <pubDate>Sat, 23 Aug 2014 10:55:47 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/oss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ghq</title>
+      <link>https://parakeety.github.io/tags/ghq/</link>
+      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/ghq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>peco</title>
+      <link>https://parakeety.github.io/tags/peco/</link>
+      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/peco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tig</title>
       <link>https://parakeety.github.io/tags/tig/</link>
       <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
       
@@ -417,11 +363,101 @@
     </item>
     
     <item>
-      <title>Unicode</title>
+      <title>z</title>
+      <link>https://parakeety.github.io/tags/z/</link>
+      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/z/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://parakeety.github.io/tags/python/</link>
+      <pubDate>Mon, 30 Jun 2014 00:26:10 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unicode</title>
       <link>https://parakeety.github.io/tags/unicode/</link>
       <pubDate>Mon, 30 Jun 2014 00:26:10 -0700</pubDate>
       
       <guid>https://parakeety.github.io/tags/unicode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nend</title>
+      <link>https://parakeety.github.io/tags/nend/</link>
+      <pubDate>Sun, 22 Jun 2014 00:57:48 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/nend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>https://parakeety.github.io/tags/mobile/</link>
+      <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>safari</title>
+      <link>https://parakeety.github.io/tags/safari/</link>
+      <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/safari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://parakeety.github.io/tags/web/</link>
+      <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coffeescript</title>
+      <link>https://parakeety.github.io/tags/coffeescript/</link>
+      <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/coffeescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>custom rule</title>
+      <link>https://parakeety.github.io/tags/custom-rule/</link>
+      <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/custom-rule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>npm</title>
+      <link>https://parakeety.github.io/tags/npm/</link>
+      <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>base64</title>
+      <link>https://parakeety.github.io/tags/base64/</link>
+      <pubDate>Tue, 01 Apr 2014 23:49:45 -0700</pubDate>
+      
+      <guid>https://parakeety.github.io/tags/base64/</guid>
       <description></description>
     </item>
     
@@ -431,42 +467,6 @@
       <pubDate>Fri, 28 Mar 2014 16:19:32 -0700</pubDate>
       
       <guid>https://parakeety.github.io/tags/unit-test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web</title>
-      <link>https://parakeety.github.io/tags/web/</link>
-      <pubDate>Sun, 15 Jun 2014 01:11:03 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xctest</title>
-      <link>https://parakeety.github.io/tags/xctest/</link>
-      <pubDate>Mon, 06 Oct 2014 23:16:00 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/xctest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xctestexpectation</title>
-      <link>https://parakeety.github.io/tags/xctestexpectation/</link>
-      <pubDate>Mon, 06 Oct 2014 23:16:00 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/xctestexpectation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Z</title>
-      <link>https://parakeety.github.io/tags/z/</link>
-      <pubDate>Sat, 05 Jul 2014 02:42:35 -0700</pubDate>
-      
-      <guid>https://parakeety.github.io/tags/z/</guid>
       <description></description>
     </item>
     

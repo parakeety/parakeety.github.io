@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Npm on Parakeety&#39;s Blog</title>
+    <title>npm on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/npm/</link>
-    <description>Recent content in Npm on Parakeety&#39;s Blog</description>
+    <description>Recent content in npm on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 31 May 2014 22:28:05 -0700</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Sat, 31 May 2014 22:28:05 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/coffeelint-prefer-english-operator/</guid>
-      <description>&lt;p&gt;tl;dr: &lt;code&gt;==&lt;/code&gt;、&lt;code&gt;!=&lt;/code&gt;、&lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;、&lt;code&gt;||&lt;/code&gt;を使っている時に、warningを出す&lt;code&gt;coffeelint&lt;/code&gt;の&lt;a href=&#34;http://www.coffeelint.org/&#34;&gt;custom rule&lt;/a&gt;を作ったよ&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;tl;dr: &lt;code&gt;==&lt;/code&gt;、&lt;code&gt;!=&lt;/code&gt;、&lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;、&lt;code&gt;||&lt;/code&gt;を使っている時に、warningを出す&lt;code&gt;coffeelint&lt;/code&gt;の&lt;a href=&#34;http://www.coffeelint.org/&#34;&gt;custom rule&lt;/a&gt;を作ったよ&lt;/p&gt;</description>
     </item>
     
   </channel>

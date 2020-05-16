@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Objective C on Parakeety&#39;s Blog</title>
+    <title>Objective-c on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/objective-c/</link>
-    <description>Recent content in Objective C on Parakeety&#39;s Blog</description>
+    <description>Recent content in Objective-c on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 30 Dec 2014 17:23:39 -0800</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
       
       <guid>https://parakeety.github.io/posts/nserror-and-nsexception/</guid>
-      <description>&lt;p&gt;Cocoaには、エラーが起きた時の対処方法として、&lt;code&gt;NSError&lt;/code&gt;と&lt;code&gt;NSException&lt;/code&gt;があります。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Cocoaには、エラーが起きた時の対処方法として、&lt;code&gt;NSError&lt;/code&gt;と&lt;code&gt;NSException&lt;/code&gt;があります。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,9 +26,7 @@
       <pubDate>Mon, 27 Oct 2014 11:40:17 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/reuse-nsdateformatter/</guid>
-      <description>&lt;p&gt;&lt;code&gt;NSDateFormatter&lt;/code&gt;を含む&lt;code&gt;NSFormatter&lt;/code&gt;クラスは、生成コストが高いのでなるべく再利用します。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;code&gt;NSDateFormatter&lt;/code&gt;を含む&lt;code&gt;NSFormatter&lt;/code&gt;クラスは、生成コストが高いのでなるべく再利用します。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -39,9 +35,7 @@
       <pubDate>Sat, 30 Aug 2014 17:24:49 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/synthesize/</guid>
-      <description>&lt;p&gt;compilerの進化に合わせて、objective-cにおける&lt;code&gt;property&lt;/code&gt;の書き方も変化してきましたが、今回は&lt;code&gt;synthesize&lt;/code&gt;について。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;compilerの進化に合わせて、objective-cにおける&lt;code&gt;property&lt;/code&gt;の書き方も変化してきましたが、今回は&lt;code&gt;synthesize&lt;/code&gt;について。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -51,10 +45,7 @@
       
       <guid>https://parakeety.github.io/posts/ios-learned-lessons/</guid>
       <description>&lt;h2 id=&#34;viewは最初の設計でうまくいかない事が多い&#34;&gt;Viewは最初の設計でうまくいかない事が多い&lt;/h2&gt;
-
-&lt;p&gt;iOSにおけるViewは様々な制約(subclassしてはいけない、subclassしないといけない)があり、最初にしっかり設計しても、ハウルの動く城の様につぎはぎになってしまう事が多いです。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;iOSにおけるViewは様々な制約(subclassしてはいけない、subclassしないといけない)があり、最初にしっかり設計しても、ハウルの動く城の様につぎはぎになってしまう事が多いです。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -63,9 +54,7 @@
       <pubDate>Sun, 18 May 2014 21:39:37 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/protected-property/</guid>
-      <description>&lt;p&gt;privateな&lt;code&gt;property&lt;/code&gt;は&lt;code&gt;class extension&lt;/code&gt;を使えば良いですが、&lt;code&gt;protected&lt;/code&gt;、即ち&lt;code&gt;subclass&lt;/code&gt;からもアクセスできる&lt;code&gt;property&lt;/code&gt;が欲しい場合どうするか。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;privateな&lt;code&gt;property&lt;/code&gt;は&lt;code&gt;class extension&lt;/code&gt;を使えば良いですが、&lt;code&gt;protected&lt;/code&gt;、即ち&lt;code&gt;subclass&lt;/code&gt;からもアクセスできる&lt;code&gt;property&lt;/code&gt;が欲しい場合どうするか。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -74,9 +63,7 @@
       <pubDate>Sun, 11 May 2014 03:46:29 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/private-property-vs-private-ivar/</guid>
-      <description>&lt;p&gt;外部から隠蔽したい状態を保持するには、privateな&lt;code&gt;property&lt;/code&gt;とprivateなインスタンス変数と2通りのやり方があります。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;外部から隠蔽したい状態を保持するには、privateな&lt;code&gt;property&lt;/code&gt;とprivateなインスタンス変数と2通りのやり方があります。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -85,9 +72,7 @@
       <pubDate>Sun, 04 May 2014 02:47:35 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/property-attributes-in-objective-c/</guid>
-      <description>&lt;p&gt;propertyを宣言する場合に、どの属性を指定すべきかまとめたものです。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;propertyを宣言する場合に、どの属性を指定すべきかまとめたものです。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -96,9 +81,7 @@
       <pubDate>Tue, 01 Apr 2014 23:49:45 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/base64-encoding/</guid>
-      <description>&lt;p&gt;ios7から、&lt;code&gt;NSData&lt;/code&gt;に&lt;code&gt;base64EncodedStringWithOptions:&lt;/code&gt;というメソッドが新たに追加され、base64 encodingが楽になりました。しかも、ios7より以前のバージョン用に、それまでprivateだった&lt;code&gt;base64Encoding&lt;/code&gt;というメソッドがpublicになりました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;ios7から、&lt;code&gt;NSData&lt;/code&gt;に&lt;code&gt;base64EncodedStringWithOptions:&lt;/code&gt;というメソッドが新たに追加され、base64 encodingが楽になりました。しかも、ios7より以前のバージョン用に、それまでprivateだった&lt;code&gt;base64Encoding&lt;/code&gt;というメソッドがpublicになりました。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -108,10 +91,7 @@
       
       <guid>https://parakeety.github.io/posts/switch/</guid>
       <description>&lt;h3 id=&#34;objective-cのswitchは整数値しか判定できない&#34;&gt;objective-cのswitchは整数値しか判定できない&lt;/h3&gt;
-
-&lt;p&gt;objective-cにおける&lt;code&gt;switch&lt;/code&gt;の条件式は、integral(整数値. intなど)しか受け付けません。なので、以下の様に&lt;code&gt;NSString&lt;/code&gt;のインスタンスを条件式に渡すと、構文エラーになります。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;objective-cにおける&lt;code&gt;switch&lt;/code&gt;の条件式は、integral(整数値. intなど)しか受け付けません。なので、以下の様に&lt;code&gt;NSString&lt;/code&gt;のインスタンスを条件式に渡すと、構文エラーになります。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -120,9 +100,7 @@
       <pubDate>Fri, 28 Mar 2014 16:19:32 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/xctest-refactoring/</guid>
-      <description>&lt;p&gt;XCTestで書いたUnit testのrefactoringを試みたのですが、個人的にすっきりする方法が見つかりませんでした。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;XCTestで書いたUnit testのrefactoringを試みたのですが、個人的にすっきりする方法が見つかりませんでした。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -135,9 +113,9 @@
 equal identical
 NSObject isEqual
 Container class: deep comparison
-overriding isEqual - isEqualClassName - call isEqualClassName in isEqual - override hash
-if isEqual: determines that two objects are equal, they must have the same hash value
-NSString *a = @&amp;quot;a&amp;quot;; NSString *b = @&amp;quot;b&amp;quot;; a == b is true  use isequaltoString never use == for comparing strings. string interning
+overriding isEqual
+ isEqualClassName call isEqualClassName in isEqual override hash  if isEqual: determines that two objects are equal, they must have the same hash value
+NSString *a = @&amp;quot;a&amp;quot;; NSString *b = @&amp;quot;b&amp;quot;; a == b is true use isequaltoString never use == for comparing strings. string interning
 参考記事 http://nshipster.com/equality/ https://developer.apple.com/library/ios/documentation/general/conceptual/DevPedia-CocoaCore/ObjectComparison.html</description>
     </item>
     

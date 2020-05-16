@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Grep on Parakeety&#39;s Blog</title>
+    <title>grep on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/grep/</link>
-    <description>Recent content in Grep on Parakeety&#39;s Blog</description>
+    <description>Recent content in grep on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 18 Oct 2014 16:02:07 -0700</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Sat, 18 Oct 2014 16:02:07 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/ag/</guid>
-      <description>&lt;p&gt;&lt;code&gt;ack&lt;/code&gt;より、&amp;rsquo;better&amp;rsquo;と主張している&lt;a href=&#34;https://github.com/ggreer/the_silver_searcher&#34;&gt;ag(silver search)&lt;/a&gt;を入れました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;code&gt;ack&lt;/code&gt;より、&amp;lsquo;better&amp;rsquo;と主張している&lt;a href=&#34;https://github.com/ggreer/the_silver_searcher&#34;&gt;ag(silver search)&lt;/a&gt;を入れました。&lt;/p&gt;</description>
     </item>
     
   </channel>

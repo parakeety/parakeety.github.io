@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Magicalrecord on Parakeety&#39;s Blog</title>
+    <title>MagicalRecord on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/magicalrecord/</link>
-    <description>Recent content in Magicalrecord on Parakeety&#39;s Blog</description>
+    <description>Recent content in MagicalRecord on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 17 Dec 2014 01:29:52 -0800</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Wed, 17 Dec 2014 01:29:52 -0800</pubDate>
       
       <guid>https://parakeety.github.io/posts/magicalrecord/</guid>
-      <description>&lt;p&gt;昔作ったアプリを今修正しているのですが、Core Data周りのコードが書くのが辛かったので、&lt;a href=&#34;https://github.com/magicalpanda/MagicalRecord&#34;&gt;MagicalRecord&lt;/a&gt;に移行しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;昔作ったアプリを今修正しているのですが、Core Data周りのコードが書くのが辛かったので、&lt;a href=&#34;https://github.com/magicalpanda/MagicalRecord&#34;&gt;MagicalRecord&lt;/a&gt;に移行しました。&lt;/p&gt;</description>
     </item>
     
   </channel>

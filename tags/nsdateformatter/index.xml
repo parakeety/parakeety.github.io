@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nsdateformatter on Parakeety&#39;s Blog</title>
+    <title>NSDateFormatter on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/nsdateformatter/</link>
-    <description>Recent content in Nsdateformatter on Parakeety&#39;s Blog</description>
+    <description>Recent content in NSDateFormatter on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 27 Oct 2014 11:40:17 -0700</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Mon, 27 Oct 2014 11:40:17 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/reuse-nsdateformatter/</guid>
-      <description>&lt;p&gt;&lt;code&gt;NSDateFormatter&lt;/code&gt;を含む&lt;code&gt;NSFormatter&lt;/code&gt;クラスは、生成コストが高いのでなるべく再利用します。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;code&gt;NSDateFormatter&lt;/code&gt;を含む&lt;code&gt;NSFormatter&lt;/code&gt;クラスは、生成コストが高いのでなるべく再利用します。&lt;/p&gt;</description>
     </item>
     
   </channel>

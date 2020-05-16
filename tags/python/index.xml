@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Parakeety&#39;s Blog</title>
+    <title>python on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/python/</link>
-    <description>Recent content in Python on Parakeety&#39;s Blog</description>
+    <description>Recent content in python on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 30 Jun 2014 00:26:10 -0700</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://parakeety.github.io/posts/detect-unicode-number/</guid>
       <description>日本語だと横棒がハイフンなのか、ダッシュなのか、全角マイナスなのかの識別が目視ではしづらいです。そこで、以下のpythonスクリプトを実行すれば、Unicode numberを返してくれます。
-# detect ―(0x2015) print hex(ord(u&#39;―&#39;))  </description>
+# detect ―(0x2015) print hex(ord(u&amp;#39;―&amp;#39;)) </description>
     </item>
     
   </channel>

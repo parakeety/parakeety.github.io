@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google Fonts on Parakeety&#39;s Blog</title>
@@ -17,9 +17,7 @@
       <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
       
       <guid>https://parakeety.github.io/posts/googlefontsios/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/parakeety/GoogleFontsiOS&#34;&gt;GoogleFontsiOS&lt;/a&gt;というライブラリを公開しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/parakeety/GoogleFontsiOS&#34;&gt;GoogleFontsiOS&lt;/a&gt;というライブラリを公開しました。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unit Test on Parakeety&#39;s Blog</title>
@@ -17,9 +17,7 @@
       <pubDate>Fri, 28 Mar 2014 16:19:32 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/xctest-refactoring/</guid>
-      <description>&lt;p&gt;XCTestで書いたUnit testのrefactoringを試みたのですが、個人的にすっきりする方法が見つかりませんでした。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;XCTestで書いたUnit testのrefactoringを試みたのですが、個人的にすっきりする方法が見つかりませんでした。&lt;/p&gt;</description>
     </item>
     
   </channel>

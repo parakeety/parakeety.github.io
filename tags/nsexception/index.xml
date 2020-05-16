@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nsexception on Parakeety&#39;s Blog</title>
+    <title>NSException on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/nsexception/</link>
-    <description>Recent content in Nsexception on Parakeety&#39;s Blog</description>
+    <description>Recent content in NSException on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 30 Dec 2014 17:23:39 -0800</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
       
       <guid>https://parakeety.github.io/posts/nserror-and-nsexception/</guid>
-      <description>&lt;p&gt;Cocoaには、エラーが起きた時の対処方法として、&lt;code&gt;NSError&lt;/code&gt;と&lt;code&gt;NSException&lt;/code&gt;があります。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Cocoaには、エラーが起きた時の対処方法として、&lt;code&gt;NSError&lt;/code&gt;と&lt;code&gt;NSException&lt;/code&gt;があります。&lt;/p&gt;</description>
     </item>
     
   </channel>

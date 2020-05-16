@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ios on Parakeety&#39;s Blog</title>
+    <title>iOS on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/ios/</link>
-    <description>Recent content in Ios on Parakeety&#39;s Blog</description>
+    <description>Recent content in iOS on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 14 Oct 2017 11:50:09 +0900</lastBuildDate>
@@ -18,10 +18,7 @@
       
       <guid>https://parakeety.github.io/posts/souzoh_ios_talk/</guid>
       <description>&lt;p&gt;2017/10/11に開催されたSouzoh iOS Talkにて、「メルカリアッテのRxSwift実装ガイド」というタイトルの発表をしました。&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cfd56684fa124fbbae249b1080204dd2&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
@@ -30,9 +27,7 @@
       <pubDate>Mon, 15 Feb 2016 13:54:44 +0000</pubDate>
       
       <guid>https://parakeety.github.io/posts/update-countdown/</guid>
-      <description>&lt;p&gt;2012年に作ってそのままにしていた&lt;a href=&#34;https://itunes.apple.com/us/app/badge-countdown/id507014333?mt=8&#34;&gt;Badge Countdown&lt;/a&gt;という、バッジで残り日数をカウントダウンできるアプリを更新しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;2012年に作ってそのままにしていた&lt;a href=&#34;https://itunes.apple.com/us/app/badge-countdown/id507014333?mt=8&#34;&gt;Badge Countdown&lt;/a&gt;という、バッジで残り日数をカウントダウンできるアプリを更新しました。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,9 +36,7 @@
       <pubDate>Fri, 07 Aug 2015 22:06:58 +0000</pubDate>
       
       <guid>https://parakeety.github.io/posts/googlefontsios/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/parakeety/GoogleFontsiOS&#34;&gt;GoogleFontsiOS&lt;/a&gt;というライブラリを公開しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/parakeety/GoogleFontsiOS&#34;&gt;GoogleFontsiOS&lt;/a&gt;というライブラリを公開しました。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -52,9 +45,7 @@
       <pubDate>Tue, 30 Dec 2014 17:23:39 -0800</pubDate>
       
       <guid>https://parakeety.github.io/posts/nserror-and-nsexception/</guid>
-      <description>&lt;p&gt;Cocoaには、エラーが起きた時の対処方法として、&lt;code&gt;NSError&lt;/code&gt;と&lt;code&gt;NSException&lt;/code&gt;があります。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Cocoaには、エラーが起きた時の対処方法として、&lt;code&gt;NSError&lt;/code&gt;と&lt;code&gt;NSException&lt;/code&gt;があります。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -63,9 +54,7 @@
       <pubDate>Wed, 17 Dec 2014 01:29:52 -0800</pubDate>
       
       <guid>https://parakeety.github.io/posts/magicalrecord/</guid>
-      <description>&lt;p&gt;昔作ったアプリを今修正しているのですが、Core Data周りのコードが書くのが辛かったので、&lt;a href=&#34;https://github.com/magicalpanda/MagicalRecord&#34;&gt;MagicalRecord&lt;/a&gt;に移行しました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;昔作ったアプリを今修正しているのですが、Core Data周りのコードが書くのが辛かったので、&lt;a href=&#34;https://github.com/magicalpanda/MagicalRecord&#34;&gt;MagicalRecord&lt;/a&gt;に移行しました。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -74,9 +63,7 @@
       <pubDate>Mon, 27 Oct 2014 11:40:17 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/reuse-nsdateformatter/</guid>
-      <description>&lt;p&gt;&lt;code&gt;NSDateFormatter&lt;/code&gt;を含む&lt;code&gt;NSFormatter&lt;/code&gt;クラスは、生成コストが高いのでなるべく再利用します。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;code&gt;NSDateFormatter&lt;/code&gt;を含む&lt;code&gt;NSFormatter&lt;/code&gt;クラスは、生成コストが高いのでなるべく再利用します。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -86,11 +73,8 @@
       
       <guid>https://parakeety.github.io/posts/xctestexpectation/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
-
 &lt;p&gt;&lt;code&gt;XCTestExpectation&lt;/code&gt;とは、xcode6にて追加された非同期テスト用のAPIです。
-これまで、非同期な処理のテストをするのにGCDのAPIを使ったり、&lt;a href=&#34;https://github.com/travisjeffery/TRVSMonitor&#34;&gt;TRVSMonitor&lt;/a&gt;等のライブラリを使う必要がありましたが、今後は&lt;code&gt;XCTestExpectation&lt;/code&gt;を使うことができます。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+これまで、非同期な処理のテストをするのにGCDのAPIを使ったり、&lt;a href=&#34;https://github.com/travisjeffery/TRVSMonitor&#34;&gt;TRVSMonitor&lt;/a&gt;等のライブラリを使う必要がありましたが、今後は&lt;code&gt;XCTestExpectation&lt;/code&gt;を使うことができます。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -99,9 +83,7 @@
       <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/cocoapods-trunk/</guid>
-      <description>&lt;p&gt;以前&lt;a href=&#34;http://parakeety.github.io/blog/2014/04/27/registration-process-to-cocoapods-spec/&#34;&gt;cocoapods specへの登録方法&lt;/a&gt;を紹介しましたが、&lt;a href=&#34;http://blog.cocoapods.org/CocoaPods-Trunk/&#34;&gt;Cocoapods trunk&lt;/a&gt;の登場によって、やり方が変わったので、新しい方法を紹介します。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;以前&lt;a href=&#34;http://parakeety.github.io/blog/2014/04/27/registration-process-to-cocoapods-spec/&#34;&gt;cocoapods specへの登録方法&lt;/a&gt;を紹介しましたが、&lt;a href=&#34;http://blog.cocoapods.org/CocoaPods-Trunk/&#34;&gt;Cocoapods trunk&lt;/a&gt;の登場によって、やり方が変わったので、新しい方法を紹介します。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -110,9 +92,7 @@
       <pubDate>Sat, 30 Aug 2014 17:24:49 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/synthesize/</guid>
-      <description>&lt;p&gt;compilerの進化に合わせて、objective-cにおける&lt;code&gt;property&lt;/code&gt;の書き方も変化してきましたが、今回は&lt;code&gt;synthesize&lt;/code&gt;について。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;compilerの進化に合わせて、objective-cにおける&lt;code&gt;property&lt;/code&gt;の書き方も変化してきましたが、今回は&lt;code&gt;synthesize&lt;/code&gt;について。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -122,16 +102,12 @@
       
       <guid>https://parakeety.github.io/posts/nend-cocoapods-private-pod/</guid>
       <description>&lt;p&gt;iphoneアプリに表示する広告として、&lt;a href=&#34;http://nend.net/&#34;&gt;nend&lt;/a&gt;を使っているのですが、いかんせんCocoaPodsに対応していないため、&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;新しいバージョンが出た時&lt;/li&gt;
 &lt;li&gt;新しいプロジェクトに追加する時&lt;/li&gt;
 &lt;li&gt;新しいマシンにした時&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;に毎回手動でライブラリをダウンロードやら、追加しないといけません。「3回繰り返したら自動化」に倣い、自動化する事にしました。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;に毎回手動でライブラリをダウンロードやら、追加しないといけません。「3回繰り返したら自動化」に倣い、自動化する事にしました。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -141,10 +117,7 @@
       
       <guid>https://parakeety.github.io/posts/ios-learned-lessons/</guid>
       <description>&lt;h2 id=&#34;viewは最初の設計でうまくいかない事が多い&#34;&gt;Viewは最初の設計でうまくいかない事が多い&lt;/h2&gt;
-
-&lt;p&gt;iOSにおけるViewは様々な制約(subclassしてはいけない、subclassしないといけない)があり、最初にしっかり設計しても、ハウルの動く城の様につぎはぎになってしまう事が多いです。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;iOSにおけるViewは様々な制約(subclassしてはいけない、subclassしないといけない)があり、最初にしっかり設計しても、ハウルの動く城の様につぎはぎになってしまう事が多いです。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -153,9 +126,7 @@
       <pubDate>Sun, 18 May 2014 21:39:37 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/protected-property/</guid>
-      <description>&lt;p&gt;privateな&lt;code&gt;property&lt;/code&gt;は&lt;code&gt;class extension&lt;/code&gt;を使えば良いですが、&lt;code&gt;protected&lt;/code&gt;、即ち&lt;code&gt;subclass&lt;/code&gt;からもアクセスできる&lt;code&gt;property&lt;/code&gt;が欲しい場合どうするか。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;privateな&lt;code&gt;property&lt;/code&gt;は&lt;code&gt;class extension&lt;/code&gt;を使えば良いですが、&lt;code&gt;protected&lt;/code&gt;、即ち&lt;code&gt;subclass&lt;/code&gt;からもアクセスできる&lt;code&gt;property&lt;/code&gt;が欲しい場合どうするか。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -168,9 +139,9 @@
 equal identical
 NSObject isEqual
 Container class: deep comparison
-overriding isEqual - isEqualClassName - call isEqualClassName in isEqual - override hash
-if isEqual: determines that two objects are equal, they must have the same hash value
-NSString *a = @&amp;quot;a&amp;quot;; NSString *b = @&amp;quot;b&amp;quot;; a == b is true  use isequaltoString never use == for comparing strings. string interning
+overriding isEqual
+ isEqualClassName call isEqualClassName in isEqual override hash  if isEqual: determines that two objects are equal, they must have the same hash value
+NSString *a = @&amp;quot;a&amp;quot;; NSString *b = @&amp;quot;b&amp;quot;; a == b is true use isequaltoString never use == for comparing strings. string interning
 参考記事 http://nshipster.com/equality/ https://developer.apple.com/library/ios/documentation/general/conceptual/DevPedia-CocoaCore/ObjectComparison.html</description>
     </item>
     

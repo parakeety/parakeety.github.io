@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rxswift on Parakeety&#39;s Blog</title>
+    <title>RxSwift on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/rxswift/</link>
-    <description>Recent content in Rxswift on Parakeety&#39;s Blog</description>
+    <description>Recent content in RxSwift on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 14 Oct 2017 11:50:09 +0900</lastBuildDate>
@@ -18,10 +18,7 @@
       
       <guid>https://parakeety.github.io/posts/souzoh_ios_talk/</guid>
       <description>&lt;p&gt;2017/10/11に開催されたSouzoh iOS Talkにて、「メルカリアッテのRxSwift実装ガイド」というタイトルの発表をしました。&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cfd56684fa124fbbae249b1080204dd2&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
   </channel>

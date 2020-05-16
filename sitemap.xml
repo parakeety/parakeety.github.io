@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://parakeety.github.io/posts/2018-review/</loc>
+    <lastmod>2018-12-31T18:51:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/</loc>
+    <lastmod>2018-12-31T18:51:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/posts/</loc>
     <lastmod>2018-12-31T18:51:07+09:00</lastmod>
   </url>
   
@@ -33,13 +43,43 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/bitcoin/</loc>
+    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/cryptocurrency/</loc>
+    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/lightning-network/</loc>
+    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/lightning-network-node/</loc>
     <lastmod>2018-02-12T09:50:00+09:00</lastmod>
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/</loc>
+    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/raspberry-pi/</loc>
+    <lastmod>2018-02-09T10:33:45+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/raspberry-pi-bitcoin-full-node/</loc>
     <lastmod>2018-02-09T10:33:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/go/</loc>
+    <lastmod>2018-01-31T11:02:32+09:00</lastmod>
   </url>
   
   <url>
@@ -68,8 +108,28 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/cloud/</loc>
+    <lastmod>2017-10-14T12:07:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/gcp/</loc>
+    <lastmod>2017-10-14T12:07:37+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/google_cloud_platform/</loc>
     <lastmod>2017-10-14T12:07:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/ios/</loc>
+    <lastmod>2017-10-14T11:50:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/rxswift/</loc>
+    <lastmod>2017-10-14T11:50:09+09:00</lastmod>
   </url>
   
   <url>
@@ -88,13 +148,43 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/jobchange/</loc>
+    <lastmod>2017-01-01T16:02:07+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/mercari/</loc>
     <lastmod>2017-01-01T16:02:07+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/app/</loc>
+    <lastmod>2016-02-15T13:54:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/countdown/</loc>
+    <lastmod>2016-02-15T13:54:44+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/update-countdown/</loc>
     <lastmod>2016-02-15T13:54:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/google-fonts/</loc>
+    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/google-fonts-ios/</loc>
+    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/googlefontsios/</loc>
+    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
   </url>
   
   <url>
@@ -108,7 +198,27 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/nserror/</loc>
+    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/nserror-and-nsexception/</loc>
+    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/nsexception/</loc>
+    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/objective-c/</loc>
+    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/swift/</loc>
     <lastmod>2014-12-30T17:23:39-08:00</lastmod>
   </url>
   
@@ -118,8 +228,38 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/magicalrecord/</loc>
+    <lastmod>2014-12-17T01:29:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/middleman/</loc>
+    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/portfolio/</loc>
     <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/namecheap/</loc>
+    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/portfolio/</loc>
+    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/s3/</loc>
+    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/nsdateformatter/</loc>
+    <lastmod>2014-10-27T11:40:17-07:00</lastmod>
   </url>
   
   <url>
@@ -128,8 +268,33 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/ack/</loc>
+    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/ag/</loc>
+    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/ag/</loc>
     <lastmod>2014-10-18T16:02:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/grep/</loc>
+    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/xctest/</loc>
+    <lastmod>2014-10-06T23:16:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/xctestexpectation/</loc>
+    <lastmod>2014-10-06T23:16:00-07:00</lastmod>
   </url>
   
   <url>
@@ -143,7 +308,17 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/cocoapods/</loc>
+    <lastmod>2014-09-18T13:22:51-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/cocoapods-trunk/</loc>
+    <lastmod>2014-09-18T13:22:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/cocoapods-trunk/</loc>
     <lastmod>2014-09-18T13:22:51-07:00</lastmod>
   </url>
   
@@ -153,8 +328,48 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/coffeelint/</loc>
+    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/coffeelint-prefer-english-operator/</loc>
+    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/github/</loc>
+    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/oss/</loc>
+    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/prefer-english-operator-merged-to-coffeelint/</loc>
     <lastmod>2014-08-23T10:55:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/ghq/</loc>
+    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/peco/</loc>
+    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/tig/</loc>
+    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/z/</loc>
+    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
   </url>
   
   <url>
@@ -163,13 +378,43 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/python/</loc>
+    <lastmod>2014-06-30T00:26:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/unicode/</loc>
+    <lastmod>2014-06-30T00:26:10-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/detect-unicode-number/</loc>
     <lastmod>2014-06-30T00:26:10-07:00</lastmod>
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/nend/</loc>
+    <lastmod>2014-06-22T00:57:48-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/nend-cocoapods-private-pod/</loc>
     <lastmod>2014-06-22T00:57:48-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/mobile/</loc>
+    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/safari/</loc>
+    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/web/</loc>
+    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
   </url>
   
   <url>
@@ -179,6 +424,21 @@
   
   <url>
     <loc>https://parakeety.github.io/posts/coffeelint-prefer-english-operator/</loc>
+    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/coffeescript/</loc>
+    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/custom-rule/</loc>
+    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/npm/</loc>
     <lastmod>2014-05-31T22:28:05-07:00</lastmod>
   </url>
   
@@ -203,6 +463,11 @@
   </url>
   
   <url>
+    <loc>https://parakeety.github.io/tags/base64/</loc>
+    <lastmod>2014-04-01T23:49:45-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://parakeety.github.io/posts/base64-encoding/</loc>
     <lastmod>2014-04-01T23:49:45-07:00</lastmod>
   </url>
@@ -210,6 +475,11 @@
   <url>
     <loc>https://parakeety.github.io/posts/switch/</loc>
     <lastmod>2014-03-31T22:21:28-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://parakeety.github.io/tags/unit-test/</loc>
+    <lastmod>2014-03-28T16:19:32-07:00</lastmod>
   </url>
   
   <url>
@@ -228,332 +498,7 @@
   </url>
   
   <url>
-    <loc>https://parakeety.github.io/tags/ack/</loc>
-    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/ag/</loc>
-    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/app/</loc>
-    <lastmod>2016-02-15T13:54:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/base64/</loc>
-    <lastmod>2014-04-01T23:49:45-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/bitcoin/</loc>
-    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://parakeety.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/cloud/</loc>
-    <lastmod>2017-10-14T12:07:37+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/cocoapods/</loc>
-    <lastmod>2014-09-18T13:22:51-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/cocoapods-trunk/</loc>
-    <lastmod>2014-09-18T13:22:51-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/coffeelint/</loc>
-    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/coffeelint-prefer-english-operator/</loc>
-    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/coffeescript/</loc>
-    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/countdown/</loc>
-    <lastmod>2016-02-15T13:54:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/cryptocurrency/</loc>
-    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/custom-rule/</loc>
-    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/gcp/</loc>
-    <lastmod>2017-10-14T12:07:37+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/ghq/</loc>
-    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/github/</loc>
-    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/go/</loc>
-    <lastmod>2018-01-31T11:02:32+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/google-fonts/</loc>
-    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/google-fonts-ios/</loc>
-    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/googlefontsios/</loc>
-    <lastmod>2015-08-07T22:06:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/grep/</loc>
-    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/ios/</loc>
-    <lastmod>2017-10-14T11:50:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/jobchange/</loc>
-    <lastmod>2017-01-01T16:02:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/lightning-network/</loc>
-    <lastmod>2018-02-12T09:50:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/magicalrecord/</loc>
-    <lastmod>2014-12-17T01:29:52-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/middleman/</loc>
-    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/mobile/</loc>
-    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/namecheap/</loc>
-    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/nend/</loc>
-    <lastmod>2014-06-22T00:57:48-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/npm/</loc>
-    <lastmod>2014-05-31T22:28:05-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/nsdateformatter/</loc>
-    <lastmod>2014-10-27T11:40:17-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/nserror/</loc>
-    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/nsexception/</loc>
-    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/objective-c/</loc>
-    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/oss/</loc>
-    <lastmod>2014-08-23T10:55:47-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/</loc>
-    <lastmod>2018-12-31T18:51:07+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/peco/</loc>
-    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/portfolio/</loc>
-    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/posts/</loc>
-    <lastmod>2018-12-31T18:51:07+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/python/</loc>
-    <lastmod>2014-06-30T00:26:10-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/raspberry-pi/</loc>
-    <lastmod>2018-02-09T10:33:45+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/rxswift/</loc>
-    <lastmod>2017-10-14T11:50:09+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/s3/</loc>
-    <lastmod>2014-11-22T01:22:05-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/safari/</loc>
-    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/swift/</loc>
-    <lastmod>2014-12-30T17:23:39-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/</loc>
-    <lastmod>2014-10-18T16:02:07-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/tig/</loc>
-    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/unicode/</loc>
-    <lastmod>2014-06-30T00:26:10-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/unit-test/</loc>
-    <lastmod>2014-03-28T16:19:32-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/web/</loc>
-    <lastmod>2014-06-15T01:11:03-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/xctest/</loc>
-    <lastmod>2014-10-06T23:16:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/xctestexpectation/</loc>
-    <lastmod>2014-10-06T23:16:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://parakeety.github.io/tags/z/</loc>
-    <lastmod>2014-07-05T02:42:35-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

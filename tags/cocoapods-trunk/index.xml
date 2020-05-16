@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cocoapods Trunk on Parakeety&#39;s Blog</title>
+    <title>Cocoapods-trunk on Parakeety&#39;s Blog</title>
     <link>https://parakeety.github.io/tags/cocoapods-trunk/</link>
-    <description>Recent content in Cocoapods Trunk on Parakeety&#39;s Blog</description>
+    <description>Recent content in Cocoapods-trunk on Parakeety&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Thu, 18 Sep 2014 13:22:51 -0700</lastBuildDate>
@@ -17,9 +17,7 @@
       <pubDate>Thu, 18 Sep 2014 13:22:51 -0700</pubDate>
       
       <guid>https://parakeety.github.io/posts/cocoapods-trunk/</guid>
-      <description>&lt;p&gt;以前&lt;a href=&#34;http://parakeety.github.io/blog/2014/04/27/registration-process-to-cocoapods-spec/&#34;&gt;cocoapods specへの登録方法&lt;/a&gt;を紹介しましたが、&lt;a href=&#34;http://blog.cocoapods.org/CocoaPods-Trunk/&#34;&gt;Cocoapods trunk&lt;/a&gt;の登場によって、やり方が変わったので、新しい方法を紹介します。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;以前&lt;a href=&#34;http://parakeety.github.io/blog/2014/04/27/registration-process-to-cocoapods-spec/&#34;&gt;cocoapods specへの登録方法&lt;/a&gt;を紹介しましたが、&lt;a href=&#34;http://blog.cocoapods.org/CocoaPods-Trunk/&#34;&gt;Cocoapods trunk&lt;/a&gt;の登場によって、やり方が変わったので、新しい方法を紹介します。&lt;/p&gt;</description>
     </item>
     
   </channel>
